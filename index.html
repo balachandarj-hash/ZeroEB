@@ -177,7 +177,16 @@
     const navLinks = document.querySelectorAll('a[href^="#"]');
     const menu = document.querySelector('.menu-toggle');
     const nav = document.querySelector('.nav-links');
-    function showPage() { const id = location.hash.slice(1) || 'home'; pages.forEach(p => p.classList.toggle('active', p.id === id)); document.body.classList.toggle('ad-page', id === 'solar-quote'); nav.classList.remove('open'); menu.setAttribute('aria-expanded','false'); window.scrollTo({top:0, behavior:'smooth'}); }
+    function showPage() {
+      const id = location.hash.slice(1) || 'home';
+      const requestedPage = document.getElementById(id);
+      if (!requestedPage?.classList.contains('page')) return;
+      pages.forEach(p => p.classList.toggle('active', p.id === id));
+      document.body.classList.toggle('ad-page', id === 'solar-quote');
+      nav.classList.remove('open');
+      menu.setAttribute('aria-expanded','false');
+      window.scrollTo({ top:0, behavior:'smooth' });
+    }
     navLinks.forEach(link => link.addEventListener('click', e => { const id = link.getAttribute('href').slice(1); if (document.getElementById(id)?.classList.contains('page')) { e.preventDefault(); location.hash=id; } }));
     window.addEventListener('hashchange', showPage); showPage();
     menu.addEventListener('click', () => { const open=nav.classList.toggle('open'); menu.setAttribute('aria-expanded',open); });
