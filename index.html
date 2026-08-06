@@ -212,6 +212,9 @@
       today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
       cleaningDate.min = today.toISOString().slice(0, 10);
     }
+    const pricingSection = document.querySelector('.cleaning-pricing');
+    const maintenanceProgram = document.querySelector('.maintenance-program');
+    if (pricingSection && maintenanceProgram) maintenanceProgram.after(pricingSection);
     document.querySelectorAll('[data-lead-form]').forEach(leadForm => leadForm.addEventListener('submit', async event => {
       event.preventDefault();
       const form = event.target;
