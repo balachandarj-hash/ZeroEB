@@ -36,6 +36,9 @@
 .article li{margin:9px 0}
 .article blockquote{margin:26px 0;padding:17px 21px;border-left:4px solid var(--lime);border-radius:0 13px 13px 0;background:#f4faef}
 .article blockquote p:last-child{margin:0}
+.article-reel{max-width:420px;margin:28px auto;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.article-note{margin:26px 0;padding:18px 21px;border:1px solid #dce7de;border-radius:14px;background:#f4faef}
+.article-note p:last-child{margin:0}
 .byline{margin-bottom:26px;padding-bottom:20px;border-bottom:1px solid var(--line);color:var(--muted);font-size:.86rem;font-weight:700}
 .empty-state{padding:46px 30px;border:1px dashed #c4d6c9;border-radius:18px;background:#fff;text-align:center}
 .empty-state p{margin:0 auto;max-width:520px;color:var(--muted)}
