@@ -1,37 +1,169 @@
-.zeroeb-chat-root { position:fixed; z-index:50; left:22px; right:auto; bottom:22px; font-family:"DM Sans",sans-serif; }
-.zeroeb-chat-root *,.zeroeb-chat-root *::before,.zeroeb-chat-root *::after { box-sizing:border-box; }
-.zeroeb-chat-toggle { width:60px; height:60px; border:0; border-radius:50%; background:#0b6846; color:#fff; cursor:pointer; box-shadow:0 12px 28px rgba(11,104,70,.32); display:grid; place-items:center; transition:transform .2s ease,background .2s ease; }
-.zeroeb-chat-toggle:hover { transform:scale(1.06); background:#075237; }
-.zeroeb-chat-toggle svg { width:26px; height:26px; fill:currentColor; }
-.zeroeb-chat-toggle[aria-expanded="true"] { background:#10251d; }
-.zeroeb-chat-badge { position:absolute; top:-3px; right:-3px; width:14px; height:14px; border:2px solid #f7f7f0; border-radius:50%; background:#d6ef6b; }
-.zeroeb-chat-panel { position:absolute; left:0; right:auto; bottom:72px; width:min(380px,calc(100vw - 28px)); height:min(560px,calc(100vh - 120px)); display:flex; flex-direction:column; overflow:hidden; border:1px solid rgba(16,37,29,.1); border-radius:22px; background:#f7f7f0; box-shadow:0 24px 60px rgba(16,37,29,.22); transform-origin:bottom left; }
-.zeroeb-chat-panel[hidden] { display:none; }
-.zeroeb-chat-head { display:flex; align-items:center; gap:12px; padding:14px 16px; background:linear-gradient(135deg,#0b6846,#103d2d); color:#fff; }
-.zeroeb-chat-avatar { width:38px; height:38px; border-radius:50%; background:#d6ef6b; color:#10251d; display:grid; place-items:center; font:800 .95rem Manrope,sans-serif; }
-.zeroeb-chat-head h2 { margin:0; font:800 1rem Manrope,sans-serif; letter-spacing:-.03em; }
-.zeroeb-chat-head p { margin:2px 0 0; color:#d2e1d8; font-size:.75rem; }
-.zeroeb-chat-close { margin-left:auto; width:34px; height:34px; border:0; border-radius:50%; background:rgba(255,255,255,.12); color:#fff; font-size:1.2rem; cursor:pointer; }
-.zeroeb-chat-log { flex:1; overflow:auto; padding:16px 14px 8px; display:flex; flex-direction:column; gap:10px; }
-.zeroeb-chat-msg { max-width:86%; padding:11px 13px; border-radius:16px; font-size:.9rem; line-height:1.45; }
-.zeroeb-chat-msg p { margin:0 0 8px; }
-.zeroeb-chat-msg p:last-child { margin-bottom:0; }
-.zeroeb-chat-msg a { color:#0b6846; font-weight:700; text-decoration:underline; }
-.zeroeb-chat-msg ul { margin:6px 0 0; padding-left:18px; }
-.zeroeb-chat-msg li { margin:4px 0; }
-.zeroeb-chat-bot { align-self:flex-start; background:#fff; color:#10251d; border:1px solid #dce4dc; border-bottom-left-radius:6px; }
-.zeroeb-chat-user { align-self:flex-end; background:#0b6846; color:#fff; border-bottom-right-radius:6px; }
-.zeroeb-chat-actions { display:flex; flex-wrap:wrap; gap:7px; margin-top:10px; }
-.zeroeb-chat-actions a,.zeroeb-chat-chip { display:inline-flex; align-items:center; min-height:32px; padding:6px 11px; border:1px solid #cfdcd2; border-radius:999px; background:#fff; color:#0b6846; font:700 .76rem "DM Sans",sans-serif; cursor:pointer; }
-.zeroeb-chat-actions a { text-decoration:none; }
-.zeroeb-chat-chip:hover,.zeroeb-chat-actions a:hover { border-color:#0b6846; background:#e8f4df; }
-.zeroeb-chat-suggest { display:flex; flex-wrap:wrap; gap:7px; padding:0 14px 10px; }
-.zeroeb-chat-form { display:flex; gap:8px; padding:10px 12px 12px; border-top:1px solid #dce4dc; background:#fff; }
-.zeroeb-chat-form input { flex:1; min-height:44px; padding:0 13px; border:1px solid #cfdcd2; border-radius:999px; background:#fbfdf9; color:#10251d; font:16px "DM Sans",sans-serif; }
-.zeroeb-chat-form input:focus { outline:0; border-color:#0b6846; box-shadow:0 0 0 3px rgba(11,104,70,.12); }
-.zeroeb-chat-form button { width:44px; height:44px; border:0; border-radius:50%; background:#0b6846; color:#fff; cursor:pointer; display:grid; place-items:center; }
-.zeroeb-chat-form button svg { width:18px; height:18px; fill:currentColor; }
-@media (max-width:520px) {
-  .zeroeb-chat-root { left:16px; right:auto; bottom:16px; }
-  .zeroeb-chat-panel { width:min(360px,calc(100vw - 20px)); height:min(72vh,560px); left:0; right:auto; }
+.zeroeb-chat-root {
+  position: fixed;
+  z-index: 50;
+  left: 22px;
+  right: auto;
+  bottom: 22px;
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+}
+.zeroeb-chat-root *,
+.zeroeb-chat-root *::before,
+.zeroeb-chat-root *::after { box-sizing: border-box; }
+.zeroeb-chat-toggle {
+  width: 56px;
+  height: 56px;
+  border: 0;
+  border-radius: 3px;
+  background: #0b1c2c;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 12px 28px rgba(11, 28, 44, .28);
+  display: grid;
+  place-items: center;
+  transition: background .2s ease;
+}
+.zeroeb-chat-toggle:hover { background: #1a5c45; }
+.zeroeb-chat-toggle svg { width: 24px; height: 24px; fill: currentColor; }
+.zeroeb-chat-toggle[aria-expanded="true"] { background: #12263a; }
+.zeroeb-chat-badge {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  background: #b08d3e;
+}
+.zeroeb-chat-panel {
+  position: absolute;
+  left: 0;
+  right: auto;
+  bottom: 68px;
+  width: min(380px, calc(100vw - 28px));
+  height: min(560px, calc(100vh - 120px));
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #e1e7ee;
+  background: #fff;
+  box-shadow: 0 20px 50px rgba(11, 28, 44, .18);
+}
+.zeroeb-chat-panel[hidden] { display: none; }
+.zeroeb-chat-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  background: #0b1c2c;
+  color: #fff;
+}
+.zeroeb-chat-avatar {
+  width: 36px;
+  height: 36px;
+  background: #b08d3e;
+  color: #0b1c2c;
+  display: grid;
+  place-items: center;
+  font: 700 .9rem "Source Serif 4", Georgia, serif;
+}
+.zeroeb-chat-head h2 {
+  margin: 0;
+  font: 650 1rem "Source Sans 3", sans-serif;
+  letter-spacing: 0;
+  color: #fff;
+}
+.zeroeb-chat-head p { margin: 2px 0 0; color: #c5d0da; font-size: .75rem; }
+.zeroeb-chat-close {
+  margin-left: auto;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.zeroeb-chat-log {
+  flex: 1;
+  overflow: auto;
+  padding: 16px 14px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #f4f6f8;
+}
+.zeroeb-chat-msg {
+  max-width: 86%;
+  padding: 11px 13px;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+.zeroeb-chat-msg p { margin: 0 0 8px; }
+.zeroeb-chat-msg p:last-child { margin-bottom: 0; }
+.zeroeb-chat-msg a { color: #1a5c45; font-weight: 700; text-decoration: underline; }
+.zeroeb-chat-msg ul { margin: 6px 0 0; padding-left: 18px; }
+.zeroeb-chat-msg li { margin: 4px 0; }
+.zeroeb-chat-bot {
+  align-self: flex-start;
+  background: #fff;
+  color: #15202b;
+  border: 1px solid #e1e7ee;
+}
+.zeroeb-chat-user {
+  align-self: flex-end;
+  background: #0b1c2c;
+  color: #fff;
+}
+.zeroeb-chat-actions { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+.zeroeb-chat-actions a,
+.zeroeb-chat-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 11px;
+  border: 1px solid #cfd8e1;
+  background: #fff;
+  color: #0b1c2c;
+  font: 650 .76rem "Source Sans 3", sans-serif;
+  cursor: pointer;
+}
+.zeroeb-chat-actions a { text-decoration: none; }
+.zeroeb-chat-chip:hover,
+.zeroeb-chat-actions a:hover { border-color: #0b1c2c; background: #f4f6f8; }
+.zeroeb-chat-suggest { display: flex; flex-wrap: wrap; gap: 7px; padding: 0 14px 10px; background: #f4f6f8; }
+.zeroeb-chat-form {
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 12px;
+  border-top: 1px solid #e1e7ee;
+  background: #fff;
+}
+.zeroeb-chat-form input {
+  flex: 1;
+  min-height: 44px;
+  padding: 0 13px;
+  border: 1px solid #cfd8e1;
+  background: #fff;
+  color: #15202b;
+  font: 16px "Source Sans 3", sans-serif;
+}
+.zeroeb-chat-form input:focus {
+  outline: 0;
+  border-color: #0b1c2c;
+  box-shadow: 0 0 0 3px rgba(11, 28, 44, .08);
+}
+.zeroeb-chat-form button {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: #0b1c2c;
+  color: #fff;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.zeroeb-chat-form button svg { width: 18px; height: 18px; fill: currentColor; }
+@media (max-width: 520px) {
+  .zeroeb-chat-root { left: 16px; right: auto; bottom: 16px; }
+  .zeroeb-chat-panel { width: min(360px, calc(100vw - 20px)); height: min(72vh, 560px); left: 0; right: auto; }
 }
