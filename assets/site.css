@@ -239,6 +239,7 @@ section { padding: 72px 0; }
 .page-hero { padding: 56px 0 40px; background: var(--cream); border-bottom: 1px solid var(--line); }
 .page-hero h1 { font-size: clamp(2.1rem, 4vw, 3.2rem); margin-bottom: 12px; }
 .page-hero p { color: var(--muted); max-width: 640px; font-size: 1.08rem; }
+.page-hero .hero-actions { margin-top: 22px; }
 
 .story { display: grid; grid-template-columns: 1fr 1.05fr; gap: 56px; align-items: center; }
 .story img { width: 100%; height: 420px; object-fit: cover; border-radius: 2px; }
@@ -479,7 +480,7 @@ section.page { padding: 0; }
 .installation-price span { font-size: .74rem; font-weight: 700; }
 .installation-service-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .installation-audience { display: grid; grid-template-columns: .8fr 1.2fr; gap: 28px; align-items: center; padding: 28px; background: #fff; border: 1px solid var(--line); }
-.audience-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.audience-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 48px; }
 .audience-list span { padding: 8px 11px; border: 1px solid var(--line); background: var(--cream); color: var(--navy); font-size: .82rem; font-weight: 600; }
 .inclusion-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .inclusion-card { padding: 26px; }
