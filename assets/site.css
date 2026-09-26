@@ -237,7 +237,7 @@ section { padding: 72px 0; }
 .cta-band .btn { background: var(--navy); border-color: var(--navy); }
 
 .page-hero { padding: 56px 0 40px; background: var(--cream); border-bottom: 1px solid var(--line); }
-.page-hero h1 { font-size: clamp(2.1rem, 4vw, 3.2rem); margin-bottom: 12px; }
+.page-hero h1, .page-hero h2 { font-size: clamp(2.1rem, 4vw, 3.2rem); margin-bottom: 12px; }
 .page-hero p { color: var(--muted); max-width: 640px; font-size: 1.08rem; }
 .page-hero .hero-actions { margin-top: 22px; }
 
@@ -376,7 +376,7 @@ section.page { padding: 0; }
 .ads-hero:after { display: none; }
 .ads-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1.05fr .8fr; align-items: center; gap: 48px; }
 .ads-hero .eyebrow { color: var(--gold); }
-.ads-hero h1 { max-width: 16ch; color: #fff; font-size: clamp(2.3rem, 4.5vw, 3.6rem); }
+.ads-hero h1, .ads-hero h2 { max-width: 16ch; color: #fff; font-size: clamp(2.3rem, 4.5vw, 3.6rem); }
 .ads-hero p { color: #c5d0da; font-size: 1.08rem; max-width: 580px; }
 .ad-subsidy { max-width: 580px; margin: 22px 0 0; padding: 16px 18px; border-left: 3px solid var(--gold); background: rgba(255,255,255,.05); }
 .ad-subsidy strong { color: var(--gold); }
@@ -401,6 +401,7 @@ section.page { padding: 0; }
 
 .cleaning-hero { padding: 64px 0; background: var(--cream); }
 .cleaning-grid { display: grid; grid-template-columns: 1fr .95fr; gap: 48px; align-items: center; }
+.cleaning-hero h2 { font-size: clamp(2.2rem, 4.6vw, 3.7rem); max-width: 18ch; }
 .cleaning-hero p { max-width: 600px; color: var(--muted); font-size: 1.08rem; }
 .cleaning-photo { position: relative; }
 .cleaning-photo img { width: 100%; height: 360px; object-fit: cover; }
@@ -471,7 +472,7 @@ section.page { padding: 0; }
 .installation-hero { padding: 64px 0; color: #fff; background: linear-gradient(135deg, var(--navy), var(--navy-2)); }
 .installation-grid { display: grid; grid-template-columns: 1fr .82fr; gap: 48px; align-items: center; }
 .installation-hero .eyebrow { color: var(--gold); }
-.installation-hero h1 { color: #fff; }
+.installation-hero h1, .installation-hero h2 { color: #fff; }
 .installation-hero p { max-width: 620px; color: #c5d0da; }
 .installation-disclaimer { margin: 20px 0; padding: 14px 16px; border-left: 3px solid var(--gold); background: rgba(255,255,255,.05); }
 .installation-form { color: var(--ink); }
