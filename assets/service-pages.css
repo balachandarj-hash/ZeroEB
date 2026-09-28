@@ -84,6 +84,14 @@ footer .logo img{filter:drop-shadow(0 0 8px rgba(255,255,255,.55))}
 .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--navy);box-shadow:0 0 0 3px rgba(11,28,44,.08)}
 .form-status{border-radius:2px;background:#eef5f1}
 footer{background:var(--navy);color:#c5d0da}
+.footer-areas{padding:4px 0 22px}
+.footer-areas h4{color:#fff;margin:0 0 12px;font:700 .82rem "Source Sans 3",sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.footer-area-search{width:min(280px,100%);margin:0 0 14px;padding:8px 12px;border:1px solid #34506a;border-radius:2px;background:#13283c;color:#fff;font:16px "Source Sans 3",sans-serif}
+.footer-area-search:focus{outline:2px solid var(--gold);outline-offset:1px}
+.footer-area-list{display:flex;flex-wrap:wrap;gap:8px 16px}
+.footer-area-list a,.footer-area-list span{display:inline;margin:0;font-size:.88rem;color:#c5d0da}
+.footer-area-list a:hover{color:var(--gold)}
+.footer-area-list [hidden]{display:none}
 .copyright{border-top:1px solid #24384c}
 .reel-filters button{border:1px solid var(--line);border-radius:2px;color:var(--navy);font:650 .85rem "Source Sans 3",sans-serif}
 .reel-filters button:hover{border-color:var(--navy)}

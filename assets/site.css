@@ -509,6 +509,14 @@ footer .logo img {
 .footer-grid h4, .footer-grid h3 { color: #fff; margin: 0 0 12px; font: 700 .82rem "Source Sans 3", sans-serif; letter-spacing: .12em; text-transform: uppercase; }
 .footer-grid a { display: block; margin: 7px 0; font-size: .9rem; }
 .footer-grid a:hover { color: var(--gold); }
+.footer-areas { padding: 4px 0 22px; }
+.footer-areas h4 { color: #fff; margin: 0 0 12px; font: 700 .82rem "Source Sans 3", sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.footer-area-search { width: min(280px, 100%); margin: 0 0 14px; padding: 8px 12px; border: 1px solid #34506a; border-radius: 2px; background: #13283c; color: #fff; font: 16px "Source Sans 3", sans-serif; }
+.footer-area-search:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+.footer-area-list { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.footer-area-list a, .footer-area-list span { display: inline; margin: 0; font-size: .88rem; color: #c5d0da; }
+.footer-area-list a:hover { color: var(--gold); }
+.footer-area-list [hidden] { display: none; }
 .copyright { padding-top: 18px; border-top: 1px solid #24384c; color: #8fa0b0; font-size: .82rem; display: flex; justify-content: space-between; }
 
 @media (max-width: 800px) {
