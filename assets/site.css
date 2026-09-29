@@ -507,21 +507,20 @@ section.page { padding: 0; }
   padding: 32px 0 28px;
 }
 .areas-cover h2 {
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 1.02rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  letter-spacing: .08em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 .areas-cover-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 18px;
+  color: #6b7785;
+  font-size: .95rem;
+  line-height: 1.9;
 }
 .areas-cover-list a {
-  color: var(--navy);
-  font-size: .95rem;
+  color: #3d4a57;
+  white-space: nowrap;
 }
 .areas-cover-list a:hover { color: var(--green); }
 footer { background: var(--navy); color: #c5d0da; padding: 48px 0 22px; }
