@@ -501,6 +501,29 @@ section.page { padding: 0; }
 .service-call { min-width: 210px; color: var(--navy); background: #fff; border-color: #fff; }
 .service-call:hover { background: var(--gold); border-color: var(--gold); color: var(--navy); }
 
+.areas-cover {
+  background: var(--cream);
+  border-top: 1px solid var(--line);
+  padding: 32px 0 28px;
+}
+.areas-cover h2 {
+  margin-bottom: 14px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.areas-cover-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+}
+.areas-cover-list a {
+  color: var(--navy);
+  font-size: .95rem;
+}
+.areas-cover-list a:hover { color: var(--green); }
 footer { background: var(--navy); color: #c5d0da; padding: 48px 0 22px; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr .8fr 1fr .75fr; gap: 28px; padding-bottom: 28px; }
 .footer-grid .logo { color: #fff; }
