@@ -5,12 +5,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="google-site-verification" content="DdSMsgeonWvllyTmrgQyPhElO56RCUtj90oqqxkdIzs" />
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZW1XKFB7V"></script>
-  <script>
+    <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-1ZW1XKFB7V');
+    window.addEventListener('load', function () {
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1ZW1XKFB7V';
+      s.async = true;
+      document.head.appendChild(s);
+    });
   </script>
   <script type="application/ld+json">
   {
@@ -59,7 +64,7 @@
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;650;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,650;8..60,700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;650;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,650;8..60,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;650;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,650;8..60,700&display=swap"></noscript>
   <link rel="stylesheet" href="assets/site.css?v=20261005b">
   
   <link rel="stylesheet" href="assets/chatbot.css">
@@ -74,7 +79,7 @@
 
       <div class="ads-hero"><div class="container ads-grid"><div><p class="eyebrow">Residential solar installation · Chennai</p><h1>Cut your electricity bill with rooftop solar.</h1><p>Get a custom solar plan for your home from ZeroEB. We handle the site survey, system design, installation, and support—end to end.</p><div class="ad-subsidy"><strong>Get up to ₹78,000 in government subsidy.</strong><br>We help eligible homeowners with the subsidy application process and paperwork.<small>Subsidy amount and approval are subject to current government scheme rules and eligibility.</small></div><div class="ad-proof"><span>Free site assessment</span><span>Made for Chennai homes</span><span>Local installation team</span></div></div><div class="ad-form"><h2>Get your free solar quote</h2><p>Tell us about your home. We’ll contact you shortly.</p><form id="ad-quote-form" data-lead-form><div class="field"><label for="ad-name">Your name</label><input id="ad-name" name="name" required placeholder="Name"></div><div class="field"><label for="ad-phone">Phone number</label><input id="ad-phone" name="phone" type="tel" required placeholder="+91 98765 43210"></div><div class="field"><label for="ad-location">Your area</label><input id="ad-location" name="location" required placeholder="e.g. Madipakkam"></div><div class="field"><label for="ad-message">Tell us about your electricity bill</label><textarea id="ad-message" name="message" required placeholder="Approximate monthly bill or your question"></textarea></div><button class="btn" type="submit">Get my free quote <span>→</span></button><p class="form-status" role="status"></p><p class="ad-note">No spam. Your information stays with ZeroEB.</p></form></div></div></div>
       <section class="ad-section"><div class="container"><div class="section-heading"><p class="eyebrow">Solar that works for you</p><h2>A clearer path to lower bills.</h2><p>Everything is designed around your roof, your energy use, and your goals.</p></div><div class="ad-stat-row"><article class="ad-stat"><strong>01</strong><h3>Free roof review</h3><p>We assess available space, shade, and solar potential.</p></article><article class="ad-stat"><strong>02</strong><h3>Custom proposal</h3><p>Receive a clear system recommendation tailored to your home.</p></article><article class="ad-stat"><strong>03</strong><h3>Expert installation</h3><p>Our local team brings your solar plant to life with care.</p></article></div></div></section>
-      <section class="ad-section services-section"><div class="container ad-showcase"><img src="assets/work/project-01.png" alt="Completed ZeroEB residential solar rooftop installation"><div><p class="eyebrow">Real local installations</p><h2>Built carefully. Made to last.</h2><p>ZeroEB brings practical experience to every rooftop installation—whether you are just exploring solar or ready for a complete system.</p><ul class="ad-checks"><li>Personalised system sizing</li><li>Quality panels and components</li><li>Neat, professional workmanship</li><li>Support after your plant is live</li></ul><a class="btn" href="contact.html">Speak to our solar expert <span>→</span></a></div></div></section>
+      <section class="ad-section services-section"><div class="container ad-showcase"><img src="assets/work/project-01.jpg" alt="Completed ZeroEB residential solar rooftop installation"><div><p class="eyebrow">Real local installations</p><h2>Built carefully. Made to last.</h2><p>ZeroEB brings practical experience to every rooftop installation—whether you are just exploring solar or ready for a complete system.</p><ul class="ad-checks"><li>Personalised system sizing</li><li>Quality panels and components</li><li>Neat, professional workmanship</li><li>Support after your plant is live</li></ul><a class="btn" href="contact.html">Speak to our solar expert <span>→</span></a></div></div></section>
       <section class="ad-cta"><div class="container"><p class="eyebrow">Your roof has potential</p><h2>Start with a free site assessment.</h2><p>Get a practical solar recommendation from the ZeroEB team.</p><a class="btn" href="#ad-quote-form">Request your quote <span>→</span></a></div></section>
     
   </main>
@@ -114,6 +119,6 @@
     }));
   </script>
   <script src="assets/nav.js" defer></script>
-  <script src="assets/chatbot.js" defer></script>
+  <script>window.addEventListener('load',function(){var s=document.createElement('script');s.src='assets/chatbot.js';document.body.appendChild(s);});</script>
 </body>
 </html>
