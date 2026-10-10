@@ -6,7 +6,7 @@
   const root = inBlog ? '../' : '';
   const WA = 'https://wa.me/916385467892?text=' + encodeURIComponent('Hi ZeroEB, I have a question from the website chatbot.');
   const CALL = 'tel:+919042517415';
-  const MAIL = 'mailto:ecopower2026@gmail.com';
+  const MAIL = root + 'contact.html';
   const MAP = 'https://www.google.com/maps/search/?api=1&query=No.5%2C+MSP+Complex%2C+F-3%2C+Medavakkam+Main+Rd%2C+opposite+Kumaran+Theatre%2C+Vigneshwar+Nagar%2C+Balaji+Nagar%2C+Madipakkam%2C+Chennai%2C+Tamil+Nadu+600091';
 
   const contactHtml =
@@ -14,7 +14,7 @@
     '<ul>' +
     '<li>Call: <a href="' + CALL + '">+91 9042517415</a></li>' +
     '<li>WhatsApp: <a href="' + WA + '" target="_blank" rel="noopener">+91 63854 67892</a></li>' +
-    '<li>Email: <a href="' + MAIL + '">ecopower2026@gmail.com</a></li>' +
+    '<li>Email: <a href="' + MAIL + '">Email us</a></li>' +
     '<li>Address: No.5, MSP Complex, F-3, Medavakkam Main Rd, opposite Kumaran Theatre, Vigneshwar Nagar, Balaji Nagar, Madipakkam, Chennai 600091</li>' +
     '</ul>';
 

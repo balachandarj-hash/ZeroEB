@@ -605,4 +605,4 @@ footer .logo img {
   .maintenance-save, .maintenance-option { flex-direction: column; align-items: flex-start; }
 }
 .footer-map { height: 140px; margin-top: 12px; overflow: hidden; border: 1px solid #24384c; }
-.footer-map iframe { display: block; width: 100%; height: 100%; border: 0; }
+.footer-map iframe { display: block; width: 100%; height: 100%; border: 0; }.mail-link{line-height:0}.mail-link img,.mail-inline{display:inline-block;width:auto;vertical-align:middle}.topbar .mail-link img{height:13px}.footer-grid .mail-link img{height:14px}.contact-item .mail-link img{height:16px}.mail-inline{height:16px;vertical-align:-3px}
