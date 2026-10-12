@@ -4,7 +4,7 @@
   left: 22px;
   right: auto;
   bottom: 22px;
-  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  font-family: "Source Sans 3", "Sans FB", "Segoe UI", sans-serif;
 }
 .zeroeb-chat-root *,
 .zeroeb-chat-root *::before,
@@ -64,11 +64,11 @@
   color: #0b1c2c;
   display: grid;
   place-items: center;
-  font: 700 .9rem "Source Serif 4", Georgia, serif;
+  font: 700 .9rem "Source Serif 4", "Serif FB", Georgia, serif;
 }
 .zeroeb-chat-head h2 {
   margin: 0;
-  font: 650 1rem "Source Sans 3", sans-serif;
+  font: 650 1rem "Source Sans 3", "Sans FB", sans-serif;
   letter-spacing: 0;
   color: #fff;
 }
@@ -124,7 +124,7 @@
   border: 1px solid #cfd8e1;
   background: #fff;
   color: #0b1c2c;
-  font: 650 .76rem "Source Sans 3", sans-serif;
+  font: 650 .76rem "Source Sans 3", "Sans FB", sans-serif;
   cursor: pointer;
 }
 .zeroeb-chat-actions a { text-decoration: none; }
@@ -145,7 +145,7 @@
   border: 1px solid #cfd8e1;
   background: #fff;
   color: #15202b;
-  font: 16px "Source Sans 3", sans-serif;
+  font: 16px "Source Sans 3", "Sans FB", sans-serif;
 }
 .zeroeb-chat-form input:focus {
   outline: 0;
