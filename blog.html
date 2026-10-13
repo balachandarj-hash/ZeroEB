@@ -79,7 +79,7 @@
 /* ---- Blog ---- */
 .post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .post-card{display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 7px 24px rgba(23,53,39,.05)}
-.post-card img{width:100%;height:192px;object-fit:cover}
+.post-card picture{display:block;width:100%}.post-card img{width:100%;height:192px;object-fit:cover}
 .post-body{display:flex;flex-direction:column;flex:1;padding:21px}
 .post-meta{margin-bottom:9px;color:var(--muted);font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
 .post-card h3{font-size:1.12rem}
@@ -207,7 +207,7 @@ footer{background:var(--navy);color:#c5d0da}
         </article>
 
         <article class="post-card">
-          <a href="blog/solar-installation-in-chennai.html"><img src="assets/residential-solar-terrace-hero.jpg" alt="Rooftop solar installation on a Chennai home" width="864" height="640"></a>
+          <a href="blog/solar-installation-in-chennai.html"><picture><source media="(max-width: 800px)" srcset="assets/residential-solar-terrace-hero-m.jpg"><img src="assets/residential-solar-terrace-hero.jpg" alt="Rooftop solar installation on a Chennai home" width="864" height="640"></picture></a>
           <div class="post-body">
             <p class="post-meta">Buying guide · 21 September 2026</p>
             <h3><a href="blog/solar-installation-in-chennai.html">Solar installation in Chennai: what to expect before you sign.</a></h3>
@@ -287,7 +287,7 @@ footer{background:var(--navy);color:#c5d0da}
         </article>
 
         <article class="post-card">
-          <a href="blog/how-to-size-your-solar-system.html"><img src="assets/residential-solar-terrace-hero.jpg" alt="Rooftop solar array on a residential terrace in Chennai" width="864" height="640"></a>
+          <a href="blog/how-to-size-your-solar-system.html"><picture><source media="(max-width: 800px)" srcset="assets/residential-solar-terrace-hero-m.jpg"><img src="assets/residential-solar-terrace-hero.jpg" alt="Rooftop solar array on a residential terrace in Chennai" width="864" height="640"></picture></a>
           <div class="post-body">
             <p class="post-meta">Sizing · 19 August 2026</p>
             <h3><a href="blog/how-to-size-your-solar-system.html">Two ACs means 2 kW of solar? Not quite.</a></h3>
