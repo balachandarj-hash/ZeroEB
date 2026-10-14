@@ -4277,9 +4277,15 @@
   </url>
   <url>
     <loc>https://zeroeb.com/blog.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zeroeb.com/blog/on-grid-vs-off-grid-vs-hybrid-solar.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://zeroeb.com/blog/is-installing-solar-panels-worth-it-in-chennai.html</loc>
@@ -4367,7 +4373,7 @@
   </url>
   <url>
     <loc>https://zeroeb.com/blog/feed.xml</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
