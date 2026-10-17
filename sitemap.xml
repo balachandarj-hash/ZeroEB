@@ -4277,9 +4277,15 @@
   </url>
   <url>
     <loc>https://zeroeb.com/blog.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zeroeb.com/blog/how-to-reduce-your-eb-bill-with-solar.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://zeroeb.com/blog/solar-panel-service-in-chennai.html</loc>
@@ -4385,7 +4391,7 @@
   </url>
   <url>
     <loc>https://zeroeb.com/blog/feed.xml</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
