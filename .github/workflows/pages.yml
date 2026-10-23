@@ -24,7 +24,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run build
+      - run: PAGES_BASE_PATH=/ZeroEB npm run build
+      - run: rm -f out/CNAME
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

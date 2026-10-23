@@ -39,6 +39,13 @@ export const areas: Area[] = (areasJson as Area[]).slice().sort((a, b) => a.name
 
 export const work: WorkPhoto[] = workJson as WorkPhoto[]
 
+/** Prefix root-absolute links inside article HTML when the site is served under a base path. */
+export function prefixRootHtml(html: string) {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || ""
+  if (!base) return html
+  return html.replace(/(\s(?:href|src)=["'])\//g, `$1${base}/`)
+}
+
 export const videos: Video[] = videosJson as Video[]
 
 export function getPost(slug: string) {

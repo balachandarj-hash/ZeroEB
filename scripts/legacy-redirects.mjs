@@ -34,9 +34,12 @@ const areaPrefixes = [
   "solar-power-installation-in-",
 ]
 
+const base = (process.env.PAGES_BASE_PATH || "").replace(/\/$/, "")
+
 function writeRedirect(relativePath, destination) {
   const file = join(root, "public", relativePath)
   mkdirSync(dirname(file), { recursive: true })
+  const target = `${base}${destination}`
   const absolute = `https://zeroeb.com${destination}`
   writeFileSync(
     file,
@@ -45,12 +48,12 @@ function writeRedirect(relativePath, destination) {
 <head>
 <meta charset="utf-8">
 <link rel="canonical" href="${absolute}">
-<meta http-equiv="refresh" content="0; url=${destination}">
+<meta http-equiv="refresh" content="0; url=${target}">
 <title>Redirecting to ZeroEB</title>
-<script>location.replace(${JSON.stringify(destination)})</script>
+<script>location.replace(${JSON.stringify(target)})</script>
 </head>
 <body>
-<p><a href="${destination}">Continue to ZeroEB</a></p>
+<p><a href="${target}">Continue to ZeroEB</a></p>
 </body>
 </html>
 `,

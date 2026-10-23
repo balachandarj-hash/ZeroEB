@@ -19,15 +19,16 @@ The site already lives in [balachandarj-hash/ZeroEB](https://github.com/balachan
 
 ```bash
 git remote add github https://github.com/balachandarj-hash/ZeroEB.git
-git push github main
 ```
 
-Pushing `main` replaces the HTML site currently in that repository. Use a separate branch if you want to keep the old files.
+The HTML source stays on `main` in that repository. Publish the Next.js export on a `gh-pages` branch, then set Pages to that branch. Do not push this history onto `main`.
 
-1. In the repository, open **Settings → Pages**.
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` builds the site and deploys it on every push to `main`.
-3. After the first deploy succeeds, under **Custom domain** enter `zeroeb.com` and save. The published site includes a `CNAME` file for that domain.
-4. Turn on **Enforce HTTPS** once GitHub shows it. That can take up to a day after DNS is correct.
+```bash
+PAGES_BASE_PATH=/ZeroEB npm run build
+rm -f out/CNAME
+```
+
+`PAGES_BASE_PATH=/ZeroEB` is only for the project site at `https://balachandarj-hash.github.io/ZeroEB/`. Leave it unset for local dev, and leave it unset again when `zeroeb.com` is served from the domain root. Omit `CNAME` from the published files until the DNS records below are in place. A `CNAME` file would point GitHub Pages at `zeroeb.com` while that domain still serves Hostinger.
 
 ### DNS at Hostinger
 

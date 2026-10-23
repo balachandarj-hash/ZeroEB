@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Container } from "@/components/section"
-import { getPost, posts, relatedPosts } from "@/lib/content"
+import { getPost, posts, prefixRootHtml, relatedPosts } from "@/lib/content"
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -65,7 +65,7 @@ export default async function ArticlePage({ params }: Props) {
                   <div
                     key={index}
                     className="rich my-6 border-l-4 border-gold bg-cream px-5 py-4 text-[1.02rem] leading-relaxed"
-                    dangerouslySetInnerHTML={{ __html: block.html }}
+                    dangerouslySetInnerHTML={{ __html: prefixRootHtml(block.html) }}
                   />
                 )
               }
@@ -74,7 +74,7 @@ export default async function ArticlePage({ params }: Props) {
                   <p
                     key={index}
                     className="rich mt-4 text-[1.05rem] leading-relaxed text-ink"
-                    dangerouslySetInnerHTML={{ __html: block.html }}
+                    dangerouslySetInnerHTML={{ __html: prefixRootHtml(block.html) }}
                   />
                 )
               }
