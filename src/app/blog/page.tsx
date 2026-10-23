@@ -7,7 +7,7 @@ import { excerpt, posts } from "@/lib/content"
 export const metadata: Metadata = {
   title: "Solar guides",
   description:
-    "Practical solar guides for Chennai homeowners from ZeroEB, including when the TANGEDCO bill changes after installation.",
+    "Practical solar guides for Chennai homeowners from ZeroEB, including what solar installation costs in 2026 and when the TANGEDCO bill changes.",
 }
 
 export default function BlogPage() {
