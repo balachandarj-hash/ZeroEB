@@ -5,6 +5,15 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
+import { site } from "@/lib/site"
+
+const subjects: Record<string, string> = {
+  quote: "New ZeroEB solar quote request",
+  contact: "New ZeroEB contact enquiry",
+  cleaning: "New ZeroEB panel cleaning request",
+  installation: "New ZeroEB labour-only installation request",
+  chat: "New ZeroEB chat enquiry",
+}
 
 type TextField = {
   name: string
@@ -60,25 +69,50 @@ export function EnquiryForm({
     event.preventDefault()
     const form = event.currentTarget
     const data = Object.fromEntries(new FormData(form).entries())
+    if (String(data.company || "").trim()) {
+      form.reset()
+      setStatus("sent")
+      setMessage("Thank you. Your enquiry has been sent to ZeroEB. We will call you to confirm.")
+      return
+    }
+    const name = String(data.name || "").trim()
+    const phone = String(data.phone || "").trim()
+    if (name.length < 2 || phone.replace(/\D/g, "").length < 10) {
+      setStatus("error")
+      setMessage("Please enter your name and a 10-digit phone number.")
+      return
+    }
     setStatus("sending")
     setMessage("Sending your enquiry…")
+    const payload: Record<string, string> = {
+      _subject: subjects[source] || `New ZeroEB enquiry from ${name}`,
+      _template: "table",
+      _captcha: "false",
+      name,
+      phone,
+      source,
+    }
+    for (const [key, value] of Object.entries(data)) {
+      if (key === "company" || key === "name" || key === "phone") continue
+      const text = String(value || "").replace(/\s+/g, " ").trim()
+      if (text) payload[key] = text.slice(0, 2000)
+    }
+    const email = payload.email
+    if (email) payload._replyto = email
     try {
-      const response = await fetch("/api/enquiry", {
+      const response = await fetch(`https://formsubmit.co/ajax/${site.email}`, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ ...data, source }),
+        body: JSON.stringify(payload),
       })
-      const payload = (await response.json()) as { error?: string }
-      if (!response.ok) throw new Error(payload.error || "Unable to send")
+      if (!response.ok) throw new Error("The enquiry desk is unavailable right now.")
       form.reset()
       setStatus("sent")
       setMessage("Thank you. Your enquiry has been sent to ZeroEB. We will call you to confirm.")
     } catch (error) {
       setStatus("error")
       setMessage(
-        error instanceof Error
-          ? `${error.message} You can also call +91 90425 17415 or WhatsApp us.`
-          : "Unable to send right now. Please call +91 90425 17415.",
+        `${error instanceof Error ? error.message : "Unable to send right now."} You can also call +91 90425 17415 or WhatsApp us.`,
       )
     }
   }
