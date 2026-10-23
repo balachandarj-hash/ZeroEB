@@ -54,7 +54,7 @@ export default function HomePage() {
                 sizes="(min-width: 1024px) 520px, 100vw"
               />
             </div>
-            <p className="absolute bottom-4 left-4 bg-navy/90 px-3 py-2 text-xs font-semibold tracking-wide text-white">
+            <p className="absolute right-4 bottom-4 max-w-[16rem] bg-navy/90 px-3 py-2 text-xs font-semibold tracking-wide text-white">
               Powering homes across Chennai & Madipakkam
             </p>
           </div>

@@ -49,9 +49,9 @@ export function ChatWidget() {
   const whatsapp = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent("Hello ZeroEB, I would like to talk about rooftop solar.")}`
 
   return (
-    <div className="fixed bottom-5 left-5 z-50">
+    <div className="fixed right-4 bottom-4 z-50 flex flex-col items-end sm:right-5 sm:bottom-5">
       {open ? (
-        <div className="mb-3 flex h-[min(560px,calc(100vh-8rem))] w-[min(380px,calc(100vw-2.5rem))] flex-col border border-line bg-white shadow-[0_20px_50px_rgba(11,28,44,0.18)]">
+        <div className="mb-3 flex h-[min(560px,calc(100vh-8rem))] w-[min(380px,calc(100vw-2rem))] flex-col border border-line bg-white shadow-[0_20px_50px_rgba(11,28,44,0.18)]">
           <div className="flex items-center justify-between bg-navy px-4 py-3 text-white">
             <div>
               <p className="text-sm font-semibold">ZeroEB desk</p>
