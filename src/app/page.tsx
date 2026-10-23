@@ -1,4 +1,4 @@
-import Image from "next/image"
+import { Image } from "@/components/image"
 import Link from "next/link"
 import { EnquiryForm } from "@/components/enquiry-form"
 import { Container, SectionHeading } from "@/components/section"

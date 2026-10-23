@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Image from "next/image"
+import { Image } from "@/components/image"
 import { EnquiryForm } from "@/components/enquiry-form"
 import { Container, SectionHeading } from "@/components/section"
 import {
