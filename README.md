@@ -15,20 +15,19 @@ Open [http://127.0.0.1:43123](http://127.0.0.1:43123).
 
 ## Connect zeroeb.com on GitHub
 
-This environment is not logged into GitHub, so the repository has to be created in your GitHub account.
-
-1. On GitHub, create a new empty repository. Name it `zeroeb`. Do not add a README, license, or `.gitignore`.
-2. On a machine where you are logged into GitHub, push this project:
+The site already lives in [balachandarj-hash/ZeroEB](https://github.com/balachandarj-hash/ZeroEB) on the GitHub account [balachandarj-hash](https://github.com/balachandarj-hash). Sign into that account before pushing.
 
 ```bash
-git remote add github https://github.com/YOUR_USERNAME/zeroeb.git
-git push -u github main
+git remote add github https://github.com/balachandarj-hash/ZeroEB.git
+git push github main
 ```
 
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, set **Source** to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` builds the site and deploys it on every push to `main`.
-5. After the first deploy succeeds, under **Custom domain** enter `zeroeb.com` and save. The published site includes a `CNAME` file for that domain.
-6. Turn on **Enforce HTTPS** once GitHub shows it. That can take up to a day after DNS is correct.
+Pushing `main` replaces the HTML site currently in that repository. Use a separate branch if you want to keep the old files.
+
+1. In the repository, open **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` builds the site and deploys it on every push to `main`.
+3. After the first deploy succeeds, under **Custom domain** enter `zeroeb.com` and save. The published site includes a `CNAME` file for that domain.
+4. Turn on **Enforce HTTPS** once GitHub shows it. That can take up to a day after DNS is correct.
 
 ### DNS at Hostinger
 
@@ -44,9 +43,9 @@ Add the domain in GitHub Pages before changing DNS. In hPanel → DNS for `zeroe
 | AAAA | `@` | `2606:50c0:8001::153` |
 | AAAA | `@` | `2606:50c0:8002::153` |
 | AAAA | `@` | `2606:50c0:8003::153` |
-| CNAME | `www` | `YOUR_USERNAME.github.io` |
+| CNAME | `www` | `balachandarj-hash.github.io` |
 
-The `www` record must point at `YOUR_USERNAME.github.io`, not at the repository name. GitHub will redirect `www.zeroeb.com` to `zeroeb.com`.
+The `www` record points at `balachandarj-hash.github.io`, not at the repository name. GitHub will redirect `www.zeroeb.com` to `zeroeb.com`.
 
 Until those records propagate, https://zeroeb.com keeps serving the Hostinger site.
 
