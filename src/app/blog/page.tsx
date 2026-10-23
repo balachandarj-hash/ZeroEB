@@ -6,10 +6,12 @@ import { excerpt, posts } from "@/lib/content"
 
 export const metadata: Metadata = {
   title: "Solar guides",
-  description: "Practical solar guides for Chennai homeowners from ZeroEB: bills, sizing, subsidies, rain, and installation quality.",
+  description:
+    "Practical solar guides for Chennai homeowners from ZeroEB, including when the TANGEDCO bill changes after installation.",
 }
 
 export default function BlogPage() {
+  const [latest, ...rest] = posts
   return (
     <main>
       <section className="bg-cream">
@@ -23,9 +25,38 @@ export default function BlogPage() {
           </p>
         </Container>
       </section>
+      {latest ? (
+        <section className="border-b border-line">
+          <Container className="grid items-center gap-8 py-12 lg:grid-cols-[1.15fr_0.85fr]">
+            <Link href={`/blog/${latest.slug}`} className="relative aspect-[4/3] bg-cream">
+              <Image
+                src={latest.image}
+                alt=""
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 640px, 100vw"
+                priority
+              />
+            </Link>
+            <div>
+              <p className="text-xs font-bold tracking-[0.16em] text-green uppercase">
+                Latest · {latest.category} · {latest.date}
+              </p>
+              <h2 className="mt-3 font-serif text-[clamp(1.8rem,3vw,2.6rem)] leading-snug text-navy">
+                <Link href={`/blog/${latest.slug}`}>{latest.title}</Link>
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-muted-foreground">{excerpt(latest, 280)}</p>
+              <p className="mt-2 text-sm text-muted-foreground">{latest.minutes}</p>
+              <Link href={`/blog/${latest.slug}`} className="mt-5 inline-flex h-11 items-center bg-navy px-5 text-sm font-semibold text-white">
+                Read the latest guide
+              </Link>
+            </div>
+          </Container>
+        </section>
+      ) : null}
       <section className="py-12">
         <Container className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post) => (
+          {rest.map((post) => (
             <article key={post.slug} className="flex flex-col border border-line">
               <Link href={`/blog/${post.slug}`} className="relative aspect-[4/3] bg-cream">
                 <Image src={post.image} alt="" fill className="object-cover" sizes="(min-width: 1024px) 33vw, 100vw" />

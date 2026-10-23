@@ -1,5 +1,117 @@
 [
   {
+    "slug": "when-does-the-eb-bill-change",
+    "title": "The Panels Are Up. When Does the EB Bill Change?",
+    "description": "A Chennai rooftop can generate on commissioning day. The TANGEDCO bill changes later, after the net meter is replaced. Here is what each stage actually shows.",
+    "category": "How solar works",
+    "date": "23 October 2026",
+    "minutes": "6 min read",
+    "image": "/media/work/project-03.jpg",
+    "blocks": [
+      {
+        "type": "p",
+        "html": "Homeowners often expect the next TANGEDCO bill to shrink the week the panels go up. Generation and the bill are two different clocks. The plant can make units the day it is commissioned. The bill changes after the utility replaces the meter."
+      },
+      {
+        "type": "p",
+        "html": "Until that meter change, the inverter app can show a healthy day while the EB statement still looks like the old one. That is not a failed plant. It is the paperwork catching up with the roof."
+      },
+      {
+        "type": "img",
+        "src": "/media/work/project-03.jpg",
+        "alt": "Completed solar panel system on a Chennai rooftop"
+      },
+      {
+        "type": "h2",
+        "text": "What you can see on day one"
+      },
+      {
+        "type": "p",
+        "html": "At commissioning we start the inverter, check voltage and polarity, and confirm the strings are reporting. If the house is using power while the sun is up, those units are served by the plant first. That part does not wait for a new meter. It is the same arrangement described in <a href=\"/blog/solar-with-eb-connection\">going solar does not mean giving up your EB connection</a>."
+      },
+      {
+        "type": "p",
+        "html": "What the app cannot do is rewrite the bill. Export, and the way surplus is presented on the statement, follow the net meter. A house that is empty until evening will export more and avoid less, even with a working plant. The bill article walks through that order: <a href=\"/blog/how-to-reduce-your-eb-bill-with-solar\">daytime use first, export second</a>."
+      },
+      {
+        "type": "note",
+        "html": "<strong>A lower bill is not the commissioning test.</strong> The test that day is whether the plant starts, the readings make sense, and you can see live data. The rupee drop belongs to a later statement."
+      },
+      {
+        "type": "h2",
+        "text": "The utility clock"
+      },
+      {
+        "type": "p",
+        "html": "After the plant is tested, the net-meter application goes to TANGEDCO. Someone from the utility inspects, and the meter is changed on their timetable, not ours. We do not print a number of weeks on this page. Inspection slots move, and a file that is missing a document waits."
+      },
+      {
+        "type": "p",
+        "html": "Keep the acknowledgement, the inverter serial, photographs of the meter and the roof, and any sanction paper in one place. When the new meter is in, ask what the first statement should show. Generation you already used at home may not appear as a line called “export.” The units you did not buy are the quieter saving."
+      },
+      {
+        "type": "h2",
+        "text": "What still shows up after the meter changes"
+      },
+      {
+        "type": "p",
+        "html": "Night load stays on the EB line. A monsoon week produces less than a clear week in February. A plant sized to the open roof, not to every appliance at once, will still leave units on the meter. We do not treat a zero bill as the target. That limit is spelled out in <a href=\"/blog/is-installing-solar-panels-worth-it-in-chennai\">whether solar is worth it on a particular Chennai roof</a>."
+      },
+      {
+        "type": "p",
+        "html": "If clear-day output in the app is sliding, that is a service question, not a new kilowatt and not a missing meter. Dust and a loose connector are covered in <a href=\"/blog/solar-panel-service-in-chennai\">what a service visit checks</a>. Rain washes loose dust. It does not replace a clean."
+      },
+      {
+        "type": "h2",
+        "text": "What to ask before you sign"
+      },
+      {
+        "type": "p",
+        "html": "A quote that only talks about the panels is incomplete if nobody names who files the net-meter papers and who attends the inspection. The checklist for the hardware itself is in <a href=\"/blog/how-to-compare-solar-quotes\">how to compare solar quotes</a>. Add one more line: what you will hold in your hand on commissioning day, and what still depends on TANGEDCO."
+      },
+      {
+        "type": "p",
+        "html": "Eligible homes can receive a government subsidy of up to ₹78,000 when the modules are DCR and the file is approved. That approval is another clock. It is not cash already sitting in the quote. The module difference is in <a href=\"/blog/ndcr-vs-dcr-solar-panels\">NDCR and DCR panels</a>."
+      },
+      {
+        "type": "h2",
+        "text": "Questions homeowners ask"
+      },
+      {
+        "type": "h3",
+        "text": "Will my next EB bill be lower as soon as the panels are on?"
+      },
+      {
+        "type": "p",
+        "html": "Not as a rule. Daytime use can be covered from commissioning. The statement changes after the net meter is replaced, and the first full cycle after that change is the one to read."
+      },
+      {
+        "type": "h3",
+        "text": "The app shows units but the bill looks unchanged. Is the plant faulty?"
+      },
+      {
+        "type": "p",
+        "html": "Not by itself. Compare a clear day in the app with the meter on the wall. If the plant is producing and the old meter is still in place, the bill is waiting on the utility, not on another row of modules."
+      },
+      {
+        "type": "h3",
+        "text": "Does ZeroEB stay for the meter change?"
+      },
+      {
+        "type": "p",
+        "html": "We commission the plant and help with the papers for a full installation. The inspection and the meter swap are TANGEDCO’s visit. Call the Madipakkam office if the app and the new meter disagree after that swap."
+      },
+      {
+        "type": "h3",
+        "text": "Can you promise the bill will fall by a set amount?"
+      },
+      {
+        "type": "p",
+        "html": "No. The drop depends on the units you use while the sun is up, the shade on that terrace, and the meter change. Bring a recent statement. The figure is written after the roof is seen, not before."
+      }
+    ]
+  },
+  {
     "slug": "how-to-reduce-your-eb-bill-with-solar",
     "title": "How to Reduce Your EB Bill with Solar Panels",
     "description": "Rooftop solar cuts a Chennai EB bill by covering daytime units first. Night still comes from the grid. Here is how to size that drop before a visit.",
