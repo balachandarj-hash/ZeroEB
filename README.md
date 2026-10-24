@@ -21,14 +21,13 @@ The site already lives in [balachandarj-hash/ZeroEB](https://github.com/balachan
 git remote add github https://github.com/balachandarj-hash/ZeroEB.git
 ```
 
-The HTML source stays on `main` in that repository. Publish the Next.js export on a `gh-pages` branch, then set Pages to that branch. Do not push this history onto `main`.
+The HTML source stays on `main` in that repository. The published site is the Next.js export on `gh-pages`, with Pages set to that branch and the custom domain `zeroeb.com`. Do not push this history onto `main`.
 
 ```bash
-PAGES_BASE_PATH=/ZeroEB npm run build
-rm -f out/CNAME
+npm run build
 ```
 
-`PAGES_BASE_PATH=/ZeroEB` is only for the project site at `https://balachandarj-hash.github.io/ZeroEB/`. Leave it unset for local dev, and leave it unset again when `zeroeb.com` is served from the domain root. Omit `CNAME` from the published files until the DNS records below are in place. A `CNAME` file would point GitHub Pages at `zeroeb.com` while that domain still serves Hostinger.
+Leave `PAGES_BASE_PATH` unset. `zeroeb.com` is served from the domain root, and `public/CNAME` contains `zeroeb.com`.
 
 ### DNS at Hostinger
 
