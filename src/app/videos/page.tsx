@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import Link from "next/link"
+import { VideoGallery } from "@/components/video-gallery"
 import { Container } from "@/components/section"
 import { videos } from "@/lib/content"
 import { site } from "@/lib/site"
@@ -31,22 +33,11 @@ export default function VideosPage() {
         </Container>
       </section>
       <section className="py-12">
-        <Container className="grid gap-4 md:grid-cols-2">
-          {videos.map((video, index) => (
-            <a
-              key={video.id}
-              href={video.url}
-              target="_blank"
-              rel="noreferrer"
-              className="flex gap-4 border border-line p-5 hover:border-navy"
-            >
-              <span className="font-serif text-2xl text-gold">{String(index + 1).padStart(2, "0")}</span>
-              <span>
-                <span className="block font-semibold text-navy">{video.title}</span>
-                <span className="mt-1 block text-sm text-green">Watch on Instagram</span>
-              </span>
-            </a>
-          ))}
+        <Container>
+          <VideoGallery videos={videos} />
+          <Link href="/quote" className="mt-10 inline-flex h-11 items-center bg-navy px-5 text-sm font-semibold text-white">
+            Book a free rooftop site inspection
+          </Link>
         </Container>
       </section>
     </main>
