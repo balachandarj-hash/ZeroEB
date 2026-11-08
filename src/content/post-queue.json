@@ -5,17 +5,45 @@
     "description": "Where the inverter should sit for solar panel installation in Madipakkam and Chennai: shade, ventilation, cable run, and a wall the family can reach.",
     "category": "Installation guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-12.jpg",
+    "image": "/media/blog/inverter-placement-madipakkam.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Madipakkam is decided on the terrace, but the inverter lives downstairs. The wall you choose changes heat, cable loss, and whether anyone can read a fault code without a ladder." },
-      { "type": "img", "src": "/media/work/project-12.jpg", "alt": "String inverter mounted on a shaded wall after solar panel installation in Madipakkam" },
-      { "type": "h2", "text": "Keep it out of the afternoon sun" },
-      { "type": "p", "html": "A string inverter for solar panel installation in Chennai should sit in shade, with air around the fins. A west wall that takes the full May sun runs hotter and derates sooner. Under a stair, beside the meter board, or on a north wall is the usual choice. It still needs a clear space above and below so the fan can move air." },
-      { "type": "h2", "text": "Short DC run, reachable AC board" },
-      { "type": "p", "html": "The DC cables come down from the array. A long loop through the house wastes a little generation and adds joints. The AC side then has to reach the distribution board without a new trench across a finished room. The site visit should mark both routes before the structure is ordered." },
-      { "type": "note", "html": "<strong>Do not box it in.</strong> A cupboard door against the inverter traps heat. Leave the clearance the datasheet asks for, usually about 30 cm on the vented sides." },
-      { "type": "h2", "text": "Someone has to read the display" },
-      { "type": "p", "html": "If the unit is above a loft hatch or behind stored boxes, a fault sits there for weeks. Put it where the homeowner can see the screen and where the crew can open it on a service visit. For solar panel installation in Madipakkam, that is usually the same wall as the EB board. Call <a href=\"tel:+919042517415\">+91 9042517415</a> if you want that wall marked on the survey." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Madipakkam is decided on the terrace, but the inverter lives downstairs. The wall you choose changes heat, cable loss, and whether anyone can read a fault code without a ladder."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/inverter-placement-madipakkam.jpg",
+        "alt": "String inverter mounted on a shaded wall after solar panel installation in Madipakkam"
+      },
+      {
+        "type": "h2",
+        "text": "Keep it out of the afternoon sun"
+      },
+      {
+        "type": "p",
+        "html": "A string inverter for solar panel installation in Chennai should sit in shade, with air around the fins. A west wall that takes the full May sun runs hotter and derates sooner. Under a stair, beside the meter board, or on a north wall is the usual choice. It still needs a clear space above and below so the fan can move air."
+      },
+      {
+        "type": "h2",
+        "text": "Short DC run, reachable AC board"
+      },
+      {
+        "type": "p",
+        "html": "The DC cables come down from the array. A long loop through the house wastes a little generation and adds joints. The AC side then has to reach the distribution board without a new trench across a finished room. The site visit should mark both routes before the structure is ordered."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Do not box it in.</strong> A cupboard door against the inverter traps heat. Leave the clearance the datasheet asks for, usually about 30 cm on the vented sides."
+      },
+      {
+        "type": "h2",
+        "text": "Someone has to read the display"
+      },
+      {
+        "type": "p",
+        "html": "If the unit is above a loft hatch or behind stored boxes, a fault sits there for weeks. Put it where the homeowner can see the screen and where the crew can open it on a service visit. For solar panel installation in Madipakkam, that is usually the same wall as the EB board. Call <a href=\"tel:+919042517415\">+91 9042517415</a> if you want that wall marked on the survey."
+      }
     ]
   },
   {
@@ -24,17 +52,45 @@
     "description": "Why sanctioned load limits solar panel installation in Chennai and Madipakkam, and when a TANGEDCO load enhancement has to come first.",
     "category": "Buying guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-05.jpg",
+    "image": "/media/blog/sanctioned-load-eb-bill.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Chennai cannot be larger than the sanctioned load on the EB connection. A 3 kW plant on a 2 kW connection is not a paperwork detail. TANGEDCO will not commission the net meter until the load matches." },
-      { "type": "img", "src": "/media/work/project-05.jpg", "alt": "EB meter and distribution board checked before solar panel installation in Chennai" },
-      { "type": "h2", "text": "Where the number is written" },
-      { "type": "p", "html": "The sanctioned load is on the EB bill, in kilowatts. It is not the same as last month’s units. A house that uses 500 units can still be on a 2 kW sanctioned load if the contract was never updated. Solar panel installation in Madipakkam starts with that figure, not with the terrace area alone." },
-      { "type": "h2", "text": "When to enhance the load first" },
-      { "type": "p", "html": "If the roof and the bill justify 5 kW, and the connection is 3 kW, file the load enhancement before the panels are ordered. Doing it afterwards leaves a finished array waiting on a meter that cannot be swapped. The enhancement is a TANGEDCO application, with its own inspection and fee." },
-      { "type": "note", "html": "<strong>Bring the bill to the survey.</strong> Twelve months of statements show both the units and the sanctioned load. One month hides a summer air-conditioner." },
-      { "type": "h2", "text": "What the quote should say" },
-      { "type": "p", "html": "A written quote for solar panel installation in Chennai should name the sanctioned load and the proposed plant size side by side. If they differ, the quote should say who files the enhancement. The sequence is in <a href=\"/blog/solar-panel-installation-timeline-madipakkam-chennai\">how long installation takes</a>. Book the visit from <a href=\"/quote\">the quote form</a>." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Chennai cannot be larger than the sanctioned load on the EB connection. A 3 kW plant on a 2 kW connection is not a paperwork detail. TANGEDCO will not commission the net meter until the load matches."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/sanctioned-load-eb-bill.jpg",
+        "alt": "EB meter and distribution board checked before solar panel installation in Chennai"
+      },
+      {
+        "type": "h2",
+        "text": "Where the number is written"
+      },
+      {
+        "type": "p",
+        "html": "The sanctioned load is on the EB bill, in kilowatts. It is not the same as last month’s units. A house that uses 500 units can still be on a 2 kW sanctioned load if the contract was never updated. Solar panel installation in Madipakkam starts with that figure, not with the terrace area alone."
+      },
+      {
+        "type": "h2",
+        "text": "When to enhance the load first"
+      },
+      {
+        "type": "p",
+        "html": "If the roof and the bill justify 5 kW, and the connection is 3 kW, file the load enhancement before the panels are ordered. Doing it afterwards leaves a finished array waiting on a meter that cannot be swapped. The enhancement is a TANGEDCO application, with its own inspection and fee."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Bring the bill to the survey.</strong> Twelve months of statements show both the units and the sanctioned load. One month hides a summer air-conditioner."
+      },
+      {
+        "type": "h2",
+        "text": "What the quote should say"
+      },
+      {
+        "type": "p",
+        "html": "A written quote for solar panel installation in Chennai should name the sanctioned load and the proposed plant size side by side. If they differ, the quote should say who files the enhancement. The sequence is in <a href=\"/blog/solar-panel-installation-timeline-madipakkam-chennai\">how long installation takes</a>. Book the visit from <a href=\"/quote\">the quote form</a>."
+      }
     ]
   },
   {
@@ -43,17 +99,45 @@
     "description": "How an overhead tank changes solar panel installation in Madipakkam and Chennai: which rows to leave empty, and why a photo at noon is not enough.",
     "category": "Local guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-03.jpg",
+    "image": "/media/blog/water-tank-shade-terrace.jpg",
     "blocks": [
-      { "type": "p", "html": "Most solar panel installation in Madipakkam shares the terrace with a Sintex or concrete tank. The tank is not moved. The row is drawn on the slab that stays clear of its shadow through the year, not only at the hour of the visit." },
-      { "type": "img", "src": "/media/work/project-03.jpg", "alt": "Terrace layout marked around an overhead tank before solar panel installation" },
-      { "type": "h2", "text": "A noon photo hides the evening shadow" },
-      { "type": "p", "html": "At midday the tank’s shadow is short. By 4 pm in December it can cover the next row. Solar panel installation in Chennai has to leave that band empty, or the shaded modules pull down the whole string. The survey should stand on the terrace and mark the winter shadow, not guess from a WhatsApp picture taken at lunch." },
-      { "type": "h2", "text": "Pipes and the lid stay reachable" },
-      { "type": "p", "html": "The plumber still needs a path to the tank lid and the outlet pipes. Rails that box the tank in look neat on day one and get cut the first time a float valve fails. Leave a walkway. The lost module is cheaper than a broken pipe under the array." },
-      { "type": "note", "html": "<strong>One shaded panel is not a small loss.</strong> On a single string, the weakest module limits the string. Shade on one panel can cost the row, not only that panel." },
-      { "type": "h2", "text": "What to send before the visit" },
-      { "type": "p", "html": "A photo from each corner of the terrace, plus the tank’s position, is enough to start. The final line is still drawn on site. For solar panel installation in Madipakkam, the office is on Medavakkam Main Road. Call <a href=\"tel:+919042517415\">+91 9042517415</a> or read <a href=\"/blog/solar-panel-orientation-tilt-madipakkam\">how tilt and shade are set</a>." }
+      {
+        "type": "p",
+        "html": "Most solar panel installation in Madipakkam shares the terrace with a Sintex or concrete tank. The tank is not moved. The row is drawn on the slab that stays clear of its shadow through the year, not only at the hour of the visit."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/water-tank-shade-terrace.jpg",
+        "alt": "Terrace layout marked around an overhead tank before solar panel installation"
+      },
+      {
+        "type": "h2",
+        "text": "A noon photo hides the evening shadow"
+      },
+      {
+        "type": "p",
+        "html": "At midday the tank’s shadow is short. By 4 pm in December it can cover the next row. Solar panel installation in Chennai has to leave that band empty, or the shaded modules pull down the whole string. The survey should stand on the terrace and mark the winter shadow, not guess from a WhatsApp picture taken at lunch."
+      },
+      {
+        "type": "h2",
+        "text": "Pipes and the lid stay reachable"
+      },
+      {
+        "type": "p",
+        "html": "The plumber still needs a path to the tank lid and the outlet pipes. Rails that box the tank in look neat on day one and get cut the first time a float valve fails. Leave a walkway. The lost module is cheaper than a broken pipe under the array."
+      },
+      {
+        "type": "note",
+        "html": "<strong>One shaded panel is not a small loss.</strong> On a single string, the weakest module limits the string. Shade on one panel can cost the row, not only that panel."
+      },
+      {
+        "type": "h2",
+        "text": "What to send before the visit"
+      },
+      {
+        "type": "p",
+        "html": "A photo from each corner of the terrace, plus the tank’s position, is enough to start. The final line is still drawn on site. For solar panel installation in Madipakkam, the office is on Medavakkam Main Road. Call <a href=\"tel:+919042517415\">+91 9042517415</a> or read <a href=\"/blog/solar-panel-orientation-tilt-madipakkam\">how tilt and shade are set</a>."
+      }
     ]
   },
   {
@@ -62,17 +146,45 @@
     "description": "What written permission solar panel installation in Chennai and Madipakkam needs when the terrace is shared, and which roofs should not be started.",
     "category": "Buying guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-08.jpg",
+    "image": "/media/blog/apartment-terrace-permission.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Chennai on an independent house uses a roof the owner controls. A flat is different. The common terrace belongs to the association, and a plant that starts without that consent gets stopped at the first complaint." },
-      { "type": "img", "src": "/media/work/project-08.jpg", "alt": "Rooftop survey discussion before solar panel installation on a Chennai home" },
-      { "type": "h2", "text": "What the letter has to say" },
-      { "type": "p", "html": "The association, or every owner who uses that roof, should say in writing that this flat may place modules on a marked part of the terrace. It should name who pays if a pipe is disturbed, and that the structure is removed if the society later needs that slab. A verbal “go ahead” from the secretary is not enough for solar panel installation in Madipakkam blocks." },
-      { "type": "h2", "text": "Roofs that should wait" },
-      { "type": "p", "html": "A balcony rail is not a terrace. A roof already covered by one owner’s tank and drying lines, with no clear patch, is not a plant. A large apartment block with a locked terrace door is not a weekend job. The honest answer is to wait until the society has a roof policy." },
-      { "type": "note", "html": "<strong>The EB connection must be the flat’s.</strong> The plant follows the meter named on the bill. It does not follow a neighbour’s connection because that terrace corner is free." },
-      { "type": "h2", "text": "Independent houses are simpler" },
-      { "type": "p", "html": "If the sale deed and the EB bill are in your name, and the terrace is yours, solar panel installation in Chennai does not need an association letter. Bring the bill to the <a href=\"/blog/free-solar-site-inspection-chennai\">free site inspection</a>. Shared roofs should bring the letter before anyone drills." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Chennai on an independent house uses a roof the owner controls. A flat is different. The common terrace belongs to the association, and a plant that starts without that consent gets stopped at the first complaint."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/apartment-terrace-permission.jpg",
+        "alt": "Rooftop survey discussion before solar panel installation on a Chennai home"
+      },
+      {
+        "type": "h2",
+        "text": "What the letter has to say"
+      },
+      {
+        "type": "p",
+        "html": "The association, or every owner who uses that roof, should say in writing that this flat may place modules on a marked part of the terrace. It should name who pays if a pipe is disturbed, and that the structure is removed if the society later needs that slab. A verbal “go ahead” from the secretary is not enough for solar panel installation in Madipakkam blocks."
+      },
+      {
+        "type": "h2",
+        "text": "Roofs that should wait"
+      },
+      {
+        "type": "p",
+        "html": "A balcony rail is not a terrace. A roof already covered by one owner’s tank and drying lines, with no clear patch, is not a plant. A large apartment block with a locked terrace door is not a weekend job. The honest answer is to wait until the society has a roof policy."
+      },
+      {
+        "type": "note",
+        "html": "<strong>The EB connection must be the flat’s.</strong> The plant follows the meter named on the bill. It does not follow a neighbour’s connection because that terrace corner is free."
+      },
+      {
+        "type": "h2",
+        "text": "Independent houses are simpler"
+      },
+      {
+        "type": "p",
+        "html": "If the sale deed and the EB bill are in your name, and the terrace is yours, solar panel installation in Chennai does not need an association letter. Bring the bill to the <a href=\"/blog/free-solar-site-inspection-chennai\">free site inspection</a>. Shared roofs should bring the letter before anyone drills."
+      }
     ]
   },
   {
@@ -81,17 +193,45 @@
     "description": "Why a solar panel installation in Chennai produces less at the hottest hour, and what the Madipakkam survey should check on the module datasheet.",
     "category": "Technical guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-10.jpg",
+    "image": "/media/blog/summer-heat-solar-array.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Chennai looks strongest in April and May, and the midday number on the inverter is often a little below the nameplate. Heat, not a fault, is the usual reason. Modules are rated at 25°C cell temperature. A terrace in Madipakkam runs far above that." },
-      { "type": "img", "src": "/media/work/project-10.jpg", "alt": "Rooftop solar array on a Chennai house in bright summer sun" },
-      { "type": "h2", "text": "What the temperature coefficient means" },
-      { "type": "p", "html": "The datasheet lists a temperature coefficient, often about −0.3% to −0.35% per degree above 25°C. At a cell temperature of 65°C, output can sit roughly 12% under the sticker wattage even in full sun. Solar panel installation in Madipakkam should compare that figure between modules, not the darkness of the frame." },
-      { "type": "h2", "text": "Air under the array matters" },
-      { "type": "p", "html": "Modules clamped flat on a sheet with no gap run hotter. A raised rail on a concrete terrace lets air pass underneath and keeps the loss smaller. That gap is also what lets rain drain. Packing the row against a parapet blocks the breeze and adds shade." },
-      { "type": "note", "html": "<strong>A hot afternoon is not a failed plant.</strong> Judge the day by total units, not by the single noon reading. March to May are still the strongest months in the year." },
-      { "type": "h2", "text": "What to ask on the quote" },
-      { "type": "p", "html": "Ask for the module model and its temperature coefficient in writing. A quote that only says “540 W panel” has not told you how it behaves in a Chennai summer. The yearly picture is in <a href=\"/blog/monitoring-solar-system-output-chennai\">how to read the first year’s output</a>." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Chennai looks strongest in April and May, and the midday number on the inverter is often a little below the nameplate. Heat, not a fault, is the usual reason. Modules are rated at 25°C cell temperature. A terrace in Madipakkam runs far above that."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/summer-heat-solar-array.jpg",
+        "alt": "Rooftop solar array on a Chennai house in bright summer sun"
+      },
+      {
+        "type": "h2",
+        "text": "What the temperature coefficient means"
+      },
+      {
+        "type": "p",
+        "html": "The datasheet lists a temperature coefficient, often about −0.3% to −0.35% per degree above 25°C. At a cell temperature of 65°C, output can sit roughly 12% under the sticker wattage even in full sun. Solar panel installation in Madipakkam should compare that figure between modules, not the darkness of the frame."
+      },
+      {
+        "type": "h2",
+        "text": "Air under the array matters"
+      },
+      {
+        "type": "p",
+        "html": "Modules clamped flat on a sheet with no gap run hotter. A raised rail on a concrete terrace lets air pass underneath and keeps the loss smaller. That gap is also what lets rain drain. Packing the row against a parapet blocks the breeze and adds shade."
+      },
+      {
+        "type": "note",
+        "html": "<strong>A hot afternoon is not a failed plant.</strong> Judge the day by total units, not by the single noon reading. March to May are still the strongest months in the year."
+      },
+      {
+        "type": "h2",
+        "text": "What to ask on the quote"
+      },
+      {
+        "type": "p",
+        "html": "Ask for the module model and its temperature coefficient in writing. A quote that only says “540 W panel” has not told you how it behaves in a Chennai summer. The yearly picture is in <a href=\"/blog/monitoring-solar-system-output-chennai\">how to read the first year’s output</a>."
+      }
     ]
   },
   {
@@ -100,17 +240,45 @@
     "description": "How often to clean after solar panel installation in Madipakkam and Chennai, from summer dust to the northeast monsoon, and what the visit costs.",
     "category": "Maintenance",
     "minutes": "6 min read",
-    "image": "/media/solar-panel-cleaning-technicians.jpg",
+    "image": "/media/blog/seasonal-panel-cleaning.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Madipakkam does not stay at the first month’s output. Dust, traffic film, and droppings sit on the glass. Rain clears some of it. It does not finish a dry April or a film baked on after the monsoon." },
-      { "type": "img", "src": "/media/solar-panel-cleaning-technicians.jpg", "alt": "Technicians cleaning rooftop solar panels in Chennai" },
-      { "type": "h2", "text": "A practical calendar" },
-      { "type": "p", "html": "February to May is the dusty stretch, and a wash every four to six weeks keeps the units up. June to September varies with the southwest showers. October and November bring the northeast monsoon; wait for a dry morning rather than washing in the rain. December and January need a look after the last wet week. Solar panel installation in Chennai near a main road films faster than a house on an interior lane." },
-      { "type": "h2", "text": "What the wash includes" },
-      { "type": "p", "html": "The glass is washed with a soft solution and purified water, not a pressure jet and not a dry cloth. The same visit can check connectors and the inverter fan. Rates are printed on the <a href=\"/panel-cleaning\">panel cleaning</a> page: up to 3 kW is ₹750 per kW, and an annual contract takes 25% off each visit." },
-      { "type": "note", "html": "<strong>Do not stand on the modules.</strong> The glass is a cover, not a floor. A cracked cell from a foot is not cleaned back into service." },
-      { "type": "h2", "text": "When a wash is not the fix" },
-      { "type": "p", "html": "If one row is dead on a clear afternoon, cleaning will not restore it. That is a connector, a breaker, or a failed module. The checks are in <a href=\"/blog/damaged-solar-panel-what-to-do\">what to do when a panel is damaged</a>. For a routine wash after solar panel installation in Madipakkam, call <a href=\"tel:+919042517415\">+91 9042517415</a>." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Madipakkam does not stay at the first month’s output. Dust, traffic film, and droppings sit on the glass. Rain clears some of it. It does not finish a dry April or a film baked on after the monsoon."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/seasonal-panel-cleaning.jpg",
+        "alt": "Technicians cleaning rooftop solar panels in Chennai"
+      },
+      {
+        "type": "h2",
+        "text": "A practical calendar"
+      },
+      {
+        "type": "p",
+        "html": "February to May is the dusty stretch, and a wash every four to six weeks keeps the units up. June to September varies with the southwest showers. October and November bring the northeast monsoon; wait for a dry morning rather than washing in the rain. December and January need a look after the last wet week. Solar panel installation in Chennai near a main road films faster than a house on an interior lane."
+      },
+      {
+        "type": "h2",
+        "text": "What the wash includes"
+      },
+      {
+        "type": "p",
+        "html": "The glass is washed with a soft solution and purified water, not a pressure jet and not a dry cloth. The same visit can check connectors and the inverter fan. Rates are printed on the <a href=\"/panel-cleaning\">panel cleaning</a> page: up to 3 kW is ₹750 per kW, and an annual contract takes 25% off each visit."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Do not stand on the modules.</strong> The glass is a cover, not a floor. A cracked cell from a foot is not cleaned back into service."
+      },
+      {
+        "type": "h2",
+        "text": "When a wash is not the fix"
+      },
+      {
+        "type": "p",
+        "html": "If one row is dead on a clear afternoon, cleaning will not restore it. That is a connector, a breaker, or a failed module. The checks are in <a href=\"/blog/damaged-solar-panel-what-to-do\">what to do when a panel is damaged</a>. For a routine wash after solar panel installation in Madipakkam, call <a href=\"tel:+919042517415\">+91 9042517415</a>."
+      }
     ]
   },
   {
@@ -119,17 +287,45 @@
     "description": "The file a homeowner should keep after solar panel installation in Chennai or Madipakkam: bills, datasheets, net meter papers, and warranty terms.",
     "category": "Buying guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-19.jpg",
+    "image": "/media/blog/solar-documents-folder.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Chennai is a 25-year asset with a short stack of papers. The papers are what a warranty claim, a house sale, or a TANGEDCO query will ask for. A photo album of the terrace is not a substitute." },
-      { "type": "img", "src": "/media/work/project-19.jpg", "alt": "Completed rooftop solar installation with cable routes recorded for the homeowner file" },
-      { "type": "h2", "text": "What belongs in the folder" },
-      { "type": "p", "html": "Keep the signed quote and the bill of materials, the module and inverter datasheets, serial numbers, the tax invoice, the labour warranty, and the net meter acknowledgement. Add the single-line diagram and a photo of the inverter nameplate. Solar panel installation in Madipakkam should also leave you the earthing test note from commissioning day." },
-      { "type": "h2", "text": "Why serial numbers matter" },
-      { "type": "p", "html": "A panel claim goes to the manufacturer with the serial number and the invoice date. An inverter claim needs the same. If those numbers exist only on a sticker that fades on the terrace, the claim becomes an argument. Photograph them on day one and store the pictures with the invoice." },
-      { "type": "note", "html": "<strong>Subsidy papers are separate.</strong> The PM Surya Ghar acknowledgement is not the installer invoice. Keep both until the amount reaches your bank." },
-      { "type": "h2", "text": "If you sell the house" },
-      { "type": "p", "html": "The buyer and the EB transfer will ask whose name the plant and the meter are in. A complete folder makes that afternoon short. The list of what the contract should have promised is in <a href=\"/blog/solar-installation-contract-what-to-ask-chennai\">what to ask before you sign</a>." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Chennai is a 25-year asset with a short stack of papers. The papers are what a warranty claim, a house sale, or a TANGEDCO query will ask for. A photo album of the terrace is not a substitute."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/solar-documents-folder.jpg",
+        "alt": "Completed rooftop solar installation with cable routes recorded for the homeowner file"
+      },
+      {
+        "type": "h2",
+        "text": "What belongs in the folder"
+      },
+      {
+        "type": "p",
+        "html": "Keep the signed quote and the bill of materials, the module and inverter datasheets, serial numbers, the tax invoice, the labour warranty, and the net meter acknowledgement. Add the single-line diagram and a photo of the inverter nameplate. Solar panel installation in Madipakkam should also leave you the earthing test note from commissioning day."
+      },
+      {
+        "type": "h2",
+        "text": "Why serial numbers matter"
+      },
+      {
+        "type": "p",
+        "html": "A panel claim goes to the manufacturer with the serial number and the invoice date. An inverter claim needs the same. If those numbers exist only on a sticker that fades on the terrace, the claim becomes an argument. Photograph them on day one and store the pictures with the invoice."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Subsidy papers are separate.</strong> The PM Surya Ghar acknowledgement is not the installer invoice. Keep both until the amount reaches your bank."
+      },
+      {
+        "type": "h2",
+        "text": "If you sell the house"
+      },
+      {
+        "type": "p",
+        "html": "The buyer and the EB transfer will ask whose name the plant and the meter are in. A complete folder makes that afternoon short. The list of what the contract should have promised is in <a href=\"/blog/solar-installation-contract-what-to-ask-chennai\">what to ask before you sign</a>."
+      }
     ]
   },
   {
@@ -138,17 +334,45 @@
     "description": "What cable and connector specification to expect on solar panel installation in Chennai and Madipakkam, and which shortcuts show up as heat later.",
     "category": "Technical guide",
     "minutes": "7 min read",
-    "image": "/media/work/project-04.jpg",
+    "image": "/media/blog/dc-cables-connectors.jpg",
     "blocks": [
-      { "type": "p", "html": "The modules get the attention. The DC wiring is where a cheap solar panel installation in Chennai fails in year three. Heat, UV, and a loose connector do more damage than a dusty glass." },
-      { "type": "img", "src": "/media/work/project-04.jpg", "alt": "DC cabling and connectors on a Chennai rooftop solar installation" },
-      { "type": "h2", "text": "What the cable should be" },
-      { "type": "p", "html": "Rooftop DC cable should be solar-rated, UV stable, and sized for the string current with a margin. 4 mm² is the common size on a residential string. It should be clipped, not left lying in a puddle line, and it should enter the inverter through a gland. Solar panel installation in Madipakkam near the marsh sees enough damp that an open gland is not a small miss." },
-      { "type": "h2", "text": "Connectors have to match" },
-      { "type": "p", "html": "MC4-style connectors should be the same family, crimped with the right tool, and fully clicked. Mixing two brands in one joint is a common source of heat. A joint that pulls off in the hand was never made. The crew should not cut the factory lead off a module unless the run truly requires it." },
-      { "type": "note", "html": "<strong>Ask for the cable make on the quote.</strong> “DC wire included” does not say whether it is solar cable or ordinary building wire. Ordinary wire chalks in the sun." },
-      { "type": "h2", "text": "What you can see from the terrace" },
-      { "type": "p", "html": "After solar panel installation in Chennai, look for cables tied to the rail, drip loops before they enter a box, and no connector sitting in standing water. The longer checklist is in <a href=\"/blog/solar-installation-quality-checklist\">the installation quality checklist</a>." }
+      {
+        "type": "p",
+        "html": "The modules get the attention. The DC wiring is where a cheap solar panel installation in Chennai fails in year three. Heat, UV, and a loose connector do more damage than a dusty glass."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/dc-cables-connectors.jpg",
+        "alt": "DC cabling and connectors on a Chennai rooftop solar installation"
+      },
+      {
+        "type": "h2",
+        "text": "What the cable should be"
+      },
+      {
+        "type": "p",
+        "html": "Rooftop DC cable should be solar-rated, UV stable, and sized for the string current with a margin. 4 mm² is the common size on a residential string. It should be clipped, not left lying in a puddle line, and it should enter the inverter through a gland. Solar panel installation in Madipakkam near the marsh sees enough damp that an open gland is not a small miss."
+      },
+      {
+        "type": "h2",
+        "text": "Connectors have to match"
+      },
+      {
+        "type": "p",
+        "html": "MC4-style connectors should be the same family, crimped with the right tool, and fully clicked. Mixing two brands in one joint is a common source of heat. A joint that pulls off in the hand was never made. The crew should not cut the factory lead off a module unless the run truly requires it."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Ask for the cable make on the quote.</strong> “DC wire included” does not say whether it is solar cable or ordinary building wire. Ordinary wire chalks in the sun."
+      },
+      {
+        "type": "h2",
+        "text": "What you can see from the terrace"
+      },
+      {
+        "type": "p",
+        "html": "After solar panel installation in Chennai, look for cables tied to the rail, drip loops before they enter a box, and no connector sitting in standing water. The longer checklist is in <a href=\"/blog/solar-installation-quality-checklist\">the installation quality checklist</a>."
+      }
     ]
   },
   {
@@ -157,17 +381,45 @@
     "description": "How to judge the units promised on a solar panel installation quote in Chennai and Madipakkam, including monsoon months and heat.",
     "category": "Buying guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-16.jpg",
+    "image": "/media/blog/generation-estimate-tablet.jpg",
     "blocks": [
-      { "type": "p", "html": "A solar panel installation quote in Chennai often promises a round monthly unit figure. That figure is useful only if you know which month it describes. A number copied from March will not arrive in November." },
-      { "type": "img", "src": "/media/work/project-16.jpg", "alt": "Inverter generation screen after solar panel installation in Chennai" },
-      { "type": "h2", "text": "A workable yearly average" },
-      { "type": "p", "html": "In this city, about 110 to 130 units per kilowatt per month, averaged across the year, is a fair planning band for an unshaded south-facing roof. Solar panel installation in Madipakkam on a roof with afternoon tank shade should be estimated lower. A quote that promises 160 units per kilowatt every month, including the monsoon, is selling a best day as a typical day." },
-      { "type": "h2", "text": "Ask for the assumptions" },
-      { "type": "p", "html": "The estimate should say the tilt, the direction, and whether shade was deducted. It should be a yearly total you can divide, not a single heroic month. Losses for heat, cable, and dust belong inside the number. If they are ignored, the bill savings will miss the brochure." },
-      { "type": "note", "html": "<strong>Compare quotes on yearly units, not on the sticker wattage.</strong> Two 5 kW plants on two different roofs are not the same plant." },
-      { "type": "h2", "text": "After the meter is on" },
-      { "type": "p", "html": "The monitoring app is the test of the estimate. Keep the first twelve months. A shortfall of a few percent in a wet November is weather. A shortfall every clear month is a design or a fault. The month-by-month bands are in <a href=\"/blog/monitoring-solar-system-output-chennai\">reading the first year’s output</a>." }
+      {
+        "type": "p",
+        "html": "A solar panel installation quote in Chennai often promises a round monthly unit figure. That figure is useful only if you know which month it describes. A number copied from March will not arrive in November."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/generation-estimate-tablet.jpg",
+        "alt": "Inverter generation screen after solar panel installation in Chennai"
+      },
+      {
+        "type": "h2",
+        "text": "A workable yearly average"
+      },
+      {
+        "type": "p",
+        "html": "In this city, about 110 to 130 units per kilowatt per month, averaged across the year, is a fair planning band for an unshaded south-facing roof. Solar panel installation in Madipakkam on a roof with afternoon tank shade should be estimated lower. A quote that promises 160 units per kilowatt every month, including the monsoon, is selling a best day as a typical day."
+      },
+      {
+        "type": "h2",
+        "text": "Ask for the assumptions"
+      },
+      {
+        "type": "p",
+        "html": "The estimate should say the tilt, the direction, and whether shade was deducted. It should be a yearly total you can divide, not a single heroic month. Losses for heat, cable, and dust belong inside the number. If they are ignored, the bill savings will miss the brochure."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Compare quotes on yearly units, not on the sticker wattage.</strong> Two 5 kW plants on two different roofs are not the same plant."
+      },
+      {
+        "type": "h2",
+        "text": "After the meter is on"
+      },
+      {
+        "type": "p",
+        "html": "The monitoring app is the test of the estimate. Keep the first twelve months. A shortfall of a few percent in a wet November is weather. A shortfall every clear month is a design or a fault. The month-by-month bands are in <a href=\"/blog/monitoring-solar-system-output-chennai\">reading the first year’s output</a>."
+      }
     ]
   },
   {
@@ -176,17 +428,45 @@
     "description": "Why the mounting structure for solar panel installation in Madipakkam and coastal Chennai should be hot-dip galvanised or aluminium, not thin painted steel.",
     "category": "Technical guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-01.jpg",
+    "image": "/media/blog/galvanised-mounting-structure.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Madipakkam sits in humid air, with the Pallikaranai marsh to one side and the bay not far to the other. A structure that looks silver on day one can rust at the cuts within a few seasons if the steel was only painted." },
-      { "type": "img", "src": "/media/work/project-01.jpg", "alt": "Galvanised mounting structure for rooftop solar panel installation in Madipakkam" },
-      { "type": "h2", "text": "What to specify" },
-      { "type": "p", "html": "Hot-dip galvanised steel, with the cut ends treated, is the usual residential structure. Aluminium rail does not rust and costs more. Powder-coated mild steel is the option to refuse unless the quote says so in plain words and you have accepted a shorter life. Solar panel installation in Chennai along the coast and the ECR should be treated the same way." },
-      { "type": "h2", "text": "Bolts and clamps rust first" },
-      { "type": "p", "html": "The rail can be sound while the clamp bolts and the module mid-clamps stain. Stainless or properly coated fasteners belong in the same line of the quote as the steel. A structure warranty that excludes fasteners is a narrow promise." },
-      { "type": "note", "html": "<strong>Galvanising is a process, not a colour.</strong> A bright spray paint is not hot-dip galvanising. Ask for the specification on the quote, not a sample photo." },
-      { "type": "h2", "text": "What the yearly visit looks for" },
-      { "type": "p", "html": "Rust at welds, flaking at holes, and loose clamps are part of the maintenance pass. Catching them early is a bolt, not a new frame. That pass is described in <a href=\"/blog/solar-panel-maintenance-services-chennai\">solar panel maintenance in Chennai</a>." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Madipakkam sits in humid air, with the Pallikaranai marsh to one side and the bay not far to the other. A structure that looks silver on day one can rust at the cuts within a few seasons if the steel was only painted."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/galvanised-mounting-structure.jpg",
+        "alt": "Galvanised mounting structure for rooftop solar panel installation in Madipakkam"
+      },
+      {
+        "type": "h2",
+        "text": "What to specify"
+      },
+      {
+        "type": "p",
+        "html": "Hot-dip galvanised steel, with the cut ends treated, is the usual residential structure. Aluminium rail does not rust and costs more. Powder-coated mild steel is the option to refuse unless the quote says so in plain words and you have accepted a shorter life. Solar panel installation in Chennai along the coast and the ECR should be treated the same way."
+      },
+      {
+        "type": "h2",
+        "text": "Bolts and clamps rust first"
+      },
+      {
+        "type": "p",
+        "html": "The rail can be sound while the clamp bolts and the module mid-clamps stain. Stainless or properly coated fasteners belong in the same line of the quote as the steel. A structure warranty that excludes fasteners is a narrow promise."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Galvanising is a process, not a colour.</strong> A bright spray paint is not hot-dip galvanising. Ask for the specification on the quote, not a sample photo."
+      },
+      {
+        "type": "h2",
+        "text": "What the yearly visit looks for"
+      },
+      {
+        "type": "p",
+        "html": "Rust at welds, flaking at holes, and loose clamps are part of the maintenance pass. Catching them early is a bolt, not a new frame. That pass is described in <a href=\"/blog/solar-panel-maintenance-services-chennai\">solar panel maintenance in Chennai</a>."
+      }
     ]
   },
   {
@@ -195,17 +475,45 @@
     "description": "When a battery is worth adding after solar panel installation in Chennai or Madipakkam, and which inverter choice keeps that option open.",
     "category": "Buying guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-18.jpg",
+    "image": "/media/blog/home-battery-beside-inverter.jpg",
     "blocks": [
-      { "type": "p", "html": "Most solar panel installation in Chennai is grid-tied and has no battery. The grid covers the night. A battery is a later decision, usually because power cuts became painful or because an EV arrived. The inverter you buy now decides whether that later step is simple." },
-      { "type": "img", "src": "/media/work/project-18.jpg", "alt": "Inverter location planned so a battery can be added after solar panel installation" },
-      { "type": "h2", "text": "What “battery-ready” should mean" },
-      { "type": "p", "html": "A hybrid inverter can charge a battery from the panels and run selected circuits during a TANGEDCO outage. A plain grid-tied inverter cannot. If the quote says battery-ready, ask for the model number and the battery voltage it accepts. A phrase with no model is not a port on the wall." },
-      { "type": "h2", "text": "What a battery does not do" },
-      { "type": "p", "html": "It does not make the plant free of EB. It stores a limited number of units. A small lithium pack may cover lights and fans for a few hours, not two air conditioners through a long outage. Solar panel installation in Madipakkam should size that pack from the circuits you actually want on, not from the full house load." },
-      { "type": "note", "html": "<strong>Adding it later costs more than including a hybrid inverter now.</strong> It costs less than buying a battery you will not use. Decide from the outage pattern on your street, not from a brochure." },
-      { "type": "h2", "text": "A sensible order" },
-      { "type": "p", "html": "Commission the grid-tied plant, watch a year of units, then add storage if the cuts justify it. The difference between the layouts is in <a href=\"/blog/on-grid-vs-off-grid-vs-hybrid-solar\">on-grid, off-grid, and hybrid</a>. For the first plant, start with <a href=\"/quote\">a roof survey</a>." }
+      {
+        "type": "p",
+        "html": "Most solar panel installation in Chennai is grid-tied and has no battery. The grid covers the night. A battery is a later decision, usually because power cuts became painful or because an EV arrived. The inverter you buy now decides whether that later step is simple."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/home-battery-beside-inverter.jpg",
+        "alt": "Inverter location planned so a battery can be added after solar panel installation"
+      },
+      {
+        "type": "h2",
+        "text": "What “battery-ready” should mean"
+      },
+      {
+        "type": "p",
+        "html": "A hybrid inverter can charge a battery from the panels and run selected circuits during a TANGEDCO outage. A plain grid-tied inverter cannot. If the quote says battery-ready, ask for the model number and the battery voltage it accepts. A phrase with no model is not a port on the wall."
+      },
+      {
+        "type": "h2",
+        "text": "What a battery does not do"
+      },
+      {
+        "type": "p",
+        "html": "It does not make the plant free of EB. It stores a limited number of units. A small lithium pack may cover lights and fans for a few hours, not two air conditioners through a long outage. Solar panel installation in Madipakkam should size that pack from the circuits you actually want on, not from the full house load."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Adding it later costs more than including a hybrid inverter now.</strong> It costs less than buying a battery you will not use. Decide from the outage pattern on your street, not from a brochure."
+      },
+      {
+        "type": "h2",
+        "text": "A sensible order"
+      },
+      {
+        "type": "p",
+        "html": "Commission the grid-tied plant, watch a year of units, then add storage if the cuts justify it. The difference between the layouts is in <a href=\"/blog/on-grid-vs-off-grid-vs-hybrid-solar\">on-grid, off-grid, and hybrid</a>. For the first plant, start with <a href=\"/quote\">a roof survey</a>."
+      }
     ]
   },
   {
@@ -214,17 +522,45 @@
     "description": "Why solar panel installation in Madipakkam and Chennai should keep a terrace walkway, and how a packed roof becomes a maintenance problem.",
     "category": "Installation guide",
     "minutes": "5 min read",
-    "image": "/media/work/project-20.jpg",
+    "image": "/media/blog/terrace-walkway-between-panels.jpg",
     "blocks": [
-      { "type": "p", "html": "A full terrace looks efficient on a drawing. Solar panel installation in Madipakkam still has to leave a path. Someone will wash the glass, open a tank lid, and reach a connector. A roof with no place to stand gets neglected." },
-      { "type": "img", "src": "/media/work/project-20.jpg", "alt": "Rooftop array with space left to walk after solar panel installation" },
-      { "type": "h2", "text": "What the path is for" },
-      { "type": "p", "html": "The path runs to the tank, to the stair cover, and along the lower edge of each row. It is wide enough for a person with a hose, not a second row of modules. Solar panel installation in Chennai that covers the only way to the parapet tap makes every future clean harder and more expensive." },
-      { "type": "h2", "text": "Edges and parapets" },
-      { "type": "p", "html": "Modules should not overhang a void or sit so close to a low parapet that a cleaner has to lean over the street. Clamps stay on the framed edge. The structure feet stay on sound concrete. If the only way to add one more module is to block the path, leave the module off." },
-      { "type": "note", "html": "<strong>One fewer module is often the right design.</strong> The units you lose are smaller than the units you lose from a roof nobody can clean." },
-      { "type": "h2", "text": "Ask to see it on the layout" },
-      { "type": "p", "html": "The drawing should show the walkway, not only the module count. If it does not, ask before the rails are cut. How the terrace is cleared before that day is in <a href=\"/blog/preparing-terrace-before-solar-panel-installation-madipakkam\">preparing the terrace</a>." }
+      {
+        "type": "p",
+        "html": "A full terrace looks efficient on a drawing. Solar panel installation in Madipakkam still has to leave a path. Someone will wash the glass, open a tank lid, and reach a connector. A roof with no place to stand gets neglected."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/terrace-walkway-between-panels.jpg",
+        "alt": "Rooftop array with space left to walk after solar panel installation"
+      },
+      {
+        "type": "h2",
+        "text": "What the path is for"
+      },
+      {
+        "type": "p",
+        "html": "The path runs to the tank, to the stair cover, and along the lower edge of each row. It is wide enough for a person with a hose, not a second row of modules. Solar panel installation in Chennai that covers the only way to the parapet tap makes every future clean harder and more expensive."
+      },
+      {
+        "type": "h2",
+        "text": "Edges and parapets"
+      },
+      {
+        "type": "p",
+        "html": "Modules should not overhang a void or sit so close to a low parapet that a cleaner has to lean over the street. Clamps stay on the framed edge. The structure feet stay on sound concrete. If the only way to add one more module is to block the path, leave the module off."
+      },
+      {
+        "type": "note",
+        "html": "<strong>One fewer module is often the right design.</strong> The units you lose are smaller than the units you lose from a roof nobody can clean."
+      },
+      {
+        "type": "h2",
+        "text": "Ask to see it on the layout"
+      },
+      {
+        "type": "p",
+        "html": "The drawing should show the walkway, not only the module count. If it does not, ask before the rails are cut. How the terrace is cleared before that day is in <a href=\"/blog/preparing-terrace-before-solar-panel-installation-madipakkam\">preparing the terrace</a>."
+      }
     ]
   },
   {
@@ -233,17 +569,45 @@
     "description": "How 540 W and higher modules change solar panel installation in Chennai and Madipakkam when the terrace is small, and what matters more than the wattage sticker.",
     "category": "Technical guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-02.jpg",
+    "image": "/media/blog/module-wattage-small-terrace.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Chennai is often sold as a race to a higher wattage sticker. On a small Madipakkam terrace the question is how many modules fit in the clear patch, and whether the string voltage still suits the inverter." },
-      { "type": "img", "src": "/media/work/project-02.jpg", "alt": "Modules laid out on a residential terrace for solar panel installation in Chennai" },
-      { "type": "h2", "text": "Higher wattage is a larger module" },
-      { "type": "p", "html": "A 580 W or 600 W module is physically bigger than an older 440 W module. On a narrow roof between a tank and a stair, two smaller modules can fit where one large module cannot. The plant kilowatts are the sum of what fits, not the highest number in the catalogue. Solar panel installation in Madipakkam on a single-row roof should be drawn to that width first." },
-      { "type": "h2", "text": "The inverter has to match the string" },
-      { "type": "p", "html": "Fewer, larger modules change the string voltage. The inverter’s MPPT window has to accept that voltage on a hot afternoon and on a cool January morning. A module upgrade that ignores the inverter is not an upgrade. The datasheet check takes minutes and prevents a string that sits outside the window." },
-      { "type": "note", "html": "<strong>Efficiency and temperature coefficient beat the wattage headline.</strong> A slightly smaller module that runs cooler can produce more units on this coast." },
-      { "type": "h2", "text": "What to compare" },
-      { "type": "p", "html": "Compare module dimensions, temperature coefficient, and product warranty, then the price per watt of the whole plant. The buying checklist is in <a href=\"/blog/how-to-compare-solar-quotes\">how to compare solar quotes</a>." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Chennai is often sold as a race to a higher wattage sticker. On a small Madipakkam terrace the question is how many modules fit in the clear patch, and whether the string voltage still suits the inverter."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/module-wattage-small-terrace.jpg",
+        "alt": "Modules laid out on a residential terrace for solar panel installation in Chennai"
+      },
+      {
+        "type": "h2",
+        "text": "Higher wattage is a larger module"
+      },
+      {
+        "type": "p",
+        "html": "A 580 W or 600 W module is physically bigger than an older 440 W module. On a narrow roof between a tank and a stair, two smaller modules can fit where one large module cannot. The plant kilowatts are the sum of what fits, not the highest number in the catalogue. Solar panel installation in Madipakkam on a single-row roof should be drawn to that width first."
+      },
+      {
+        "type": "h2",
+        "text": "The inverter has to match the string"
+      },
+      {
+        "type": "p",
+        "html": "Fewer, larger modules change the string voltage. The inverter’s MPPT window has to accept that voltage on a hot afternoon and on a cool January morning. A module upgrade that ignores the inverter is not an upgrade. The datasheet check takes minutes and prevents a string that sits outside the window."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Efficiency and temperature coefficient beat the wattage headline.</strong> A slightly smaller module that runs cooler can produce more units on this coast."
+      },
+      {
+        "type": "h2",
+        "text": "What to compare"
+      },
+      {
+        "type": "p",
+        "html": "Compare module dimensions, temperature coefficient, and product warranty, then the price per watt of the whole plant. The buying checklist is in <a href=\"/blog/how-to-compare-solar-quotes\">how to compare solar quotes</a>."
+      }
     ]
   },
   {
@@ -252,17 +616,45 @@
     "description": "How to use the plant and what to track between solar panel installation in Chennai or Madipakkam and the day TANGEDCO commissions the net meter.",
     "category": "Installation guide",
     "minutes": "6 min read",
-    "image": "/media/work/project-21.jpg",
+    "image": "/media/blog/waiting-for-net-meter.jpg",
     "blocks": [
-      { "type": "p", "html": "Solar panel installation in Chennai is often switched on weeks before the net meter arrives. The panels still power the house in daylight. The bill does not yet show export. That gap confuses people who expect the first statement to collapse." },
-      { "type": "img", "src": "/media/work/project-21.jpg", "alt": "Net meter position at a Chennai home after solar panel installation" },
-      { "type": "h2", "text": "Use the daytime load" },
-      { "type": "p", "html": "Run the washing, the pump, and the heavier daytime work while the sun is up. Those units are used in the house and do not depend on the export register. Units you do not use may flow out without being credited until the bidirectional meter is in. Solar panel installation in Madipakkam should have the application filed on installation day so this window stays short." },
-      { "type": "h2", "text": "Watch the inverter, not the bill" },
-      { "type": "p", "html": "The inverter total is the proof the plant is alive. Note a clear day’s units once a week. If generation falls on a bright afternoon, call the installer with the error code before the meter appointment. Do not wait for the bill to reveal a fault that has been on the screen." },
-      { "type": "note", "html": "<strong>The old meter is not a savings meter.</strong> Until TANGEDCO swaps it, the statement can look like the months before solar. That is the queue at the sub-division, not a silent array." },
-      { "type": "h2", "text": "Who follows the file" },
-      { "type": "p", "html": "Ask for the acknowledgement number and follow it every fortnight. The steps are in <a href=\"/blog/tangedco-net-meter-application-solar-chennai\">the TANGEDCO net meter application</a>. When the new meter is commissioned, the next full cycle is the one that shows the change, as explained in <a href=\"/blog/when-does-the-eb-bill-change\">when the EB bill changes</a>." }
+      {
+        "type": "p",
+        "html": "Solar panel installation in Chennai is often switched on weeks before the net meter arrives. The panels still power the house in daylight. The bill does not yet show export. That gap confuses people who expect the first statement to collapse."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/waiting-for-net-meter.jpg",
+        "alt": "Net meter position at a Chennai home after solar panel installation"
+      },
+      {
+        "type": "h2",
+        "text": "Use the daytime load"
+      },
+      {
+        "type": "p",
+        "html": "Run the washing, the pump, and the heavier daytime work while the sun is up. Those units are used in the house and do not depend on the export register. Units you do not use may flow out without being credited until the bidirectional meter is in. Solar panel installation in Madipakkam should have the application filed on installation day so this window stays short."
+      },
+      {
+        "type": "h2",
+        "text": "Watch the inverter, not the bill"
+      },
+      {
+        "type": "p",
+        "html": "The inverter total is the proof the plant is alive. Note a clear day’s units once a week. If generation falls on a bright afternoon, call the installer with the error code before the meter appointment. Do not wait for the bill to reveal a fault that has been on the screen."
+      },
+      {
+        "type": "note",
+        "html": "<strong>The old meter is not a savings meter.</strong> Until TANGEDCO swaps it, the statement can look like the months before solar. That is the queue at the sub-division, not a silent array."
+      },
+      {
+        "type": "h2",
+        "text": "Who follows the file"
+      },
+      {
+        "type": "p",
+        "html": "Ask for the acknowledgement number and follow it every fortnight. The steps are in <a href=\"/blog/tangedco-net-meter-application-solar-chennai\">the TANGEDCO net meter application</a>. When the new meter is commissioned, the next full cycle is the one that shows the change, as explained in <a href=\"/blog/when-does-the-eb-bill-change\">when the EB bill changes</a>."
+      }
     ]
   }
 ]
