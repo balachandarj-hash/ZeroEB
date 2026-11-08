@@ -31,6 +31,7 @@ export const nav = [
   { href: "/services", label: "Services" },
   { href: "/solar-installation-chennai", label: "Chennai" },
   { href: "/our-work", label: "Our work" },
+  { href: "/videos", label: "Videos" },
   { href: "/panel-cleaning", label: "Cleaning" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
