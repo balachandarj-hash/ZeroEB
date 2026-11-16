@@ -1,0 +1,58 @@
+name: Daily blog post
+
+on:
+  schedule:
+    # 03:00 UTC is 08:30 in Chennai. GitHub may start the job a few minutes late.
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-blog
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - id: post
+        run: node scripts/daily-post.mjs
+
+      - name: Commit today's post
+        if: steps.post.outputs.added == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/posts.json src/content/post-queue.json
+          git commit -m "Publish the daily solar guide for ${{ steps.post.outputs.date }}."
+          git push
+
+      - name: Build the site
+        if: steps.post.outputs.added == 'true'
+        run: npm run build
+
+      - name: Publish zeroeb.com
+        if: steps.post.outputs.added == 'true'
+        run: |
+          rm -rf /tmp/gh-pages
+          git clone --branch gh-pages --single-branch --depth 1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" /tmp/gh-pages
+          find /tmp/gh-pages -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a out/. /tmp/gh-pages/
+          git -C /tmp/gh-pages config user.name "github-actions[bot]"
+          git -C /tmp/gh-pages config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C /tmp/gh-pages add -A
+          git -C /tmp/gh-pages commit -m "Publish the daily solar guide for ${{ steps.post.outputs.date }}."
+          git -C /tmp/gh-pages push origin gh-pages

@@ -29,7 +29,14 @@ export type Area = {
 }
 
 export type WorkPhoto = { src: string; alt: string }
-export type Video = { id: string; title: string; url: string }
+export type Video = {
+  id: string
+  title: string
+  heading: string
+  description: string
+  category: "tips" | "choosing" | "work" | "fun"
+  url: string
+}
 
 export const posts: Post[] = (postsJson as Post[])
   .slice()

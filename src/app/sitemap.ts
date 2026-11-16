@@ -1,3 +1,5 @@
+import { readdirSync } from "node:fs"
+import { join } from "node:path"
 import type { MetadataRoute } from "next"
 import { areas, posts } from "@/lib/content"
 import { site } from "@/lib/site"
@@ -39,5 +41,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.5,
     })),
+    ...readdirSync(join(process.cwd(), "legacy", "pages"))
+      .filter((file) => file.endsWith(".html"))
+      .map((file) => ({
+        url: `${site.url}/${file}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.4,
+      })),
   ]
 }
