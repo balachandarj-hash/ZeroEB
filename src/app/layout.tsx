@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import type { ReactNode } from "react"
-import { Source_Sans_3, Source_Serif_4 } from "next/font/google"
+import localFont from "next/font/local"
 import Script from "next/script"
 import { ChatWidget } from "@/components/chat-widget"
 import { SiteFooter } from "@/components/site-footer"
@@ -8,16 +8,19 @@ import { SiteHeader } from "@/components/site-header"
 import { site } from "@/lib/site"
 import "./globals.css"
 
-const sans = Source_Sans_3({
-  subsets: ["latin"],
+// Self-hosted to keep `next build` offline-safe (Google Fonts fetch is flaky in some environments).
+const sans = localFont({
+  src: "../fonts/source-sans-3-latin.woff2",
   variable: "--font-sans",
-  weight: ["400", "600", "700"],
+  weight: "400 700",
+  display: "swap",
 })
 
-const serif = Source_Serif_4({
-  subsets: ["latin"],
+const serif = localFont({
+  src: "../fonts/source-serif-4-latin.woff2",
   variable: "--font-serif",
-  weight: ["600", "700"],
+  weight: "600 700",
+  display: "swap",
 })
 
 export const metadata: Metadata = {

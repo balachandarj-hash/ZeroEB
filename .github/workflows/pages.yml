@@ -2,7 +2,7 @@ name: Deploy zeroeb.com
 
 on:
   push:
-    branches: [main]
+    branches: [main, cursor/zeroeb-site-ae67]
   workflow_dispatch:
 
 permissions:
