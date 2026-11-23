@@ -2,8 +2,12 @@ name: Daily blog post
 
 on:
   schedule:
-    # 03:00 UTC is 08:30 in Chennai. GitHub may start the job a few minutes late.
-    - cron: "0 3 * * *"
+    # Off the hour — GitHub often delays or drops jobs at :00 under load.
+    # 03:17 UTC ≈ 08:47 IST (morning publish).
+    - cron: "17 3 * * *"
+    # Afternoon catch-up if the morning slot was dropped (script no-ops if today exists).
+    # 10:17 UTC ≈ 15:47 IST.
+    - cron: "17 10 * * *"
   workflow_dispatch:
 
 permissions:
@@ -22,6 +26,7 @@ jobs:
           # Live site source branch (also the repo default). Cron only runs from default branch.
           ref: cursor/zeroeb-site-ae67
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -40,7 +45,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/content/posts.json src/content/post-queue.json
           git commit -m "Publish the daily solar guide for ${{ steps.post.outputs.date }}."
-          git push
+          git push origin HEAD:cursor/zeroeb-site-ae67
 
       - name: Build the site
         if: steps.post.outputs.added == 'true'
@@ -48,6 +53,8 @@ jobs:
 
       - name: Publish zeroeb.com
         if: steps.post.outputs.added == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           rm -rf /tmp/gh-pages
           git clone --branch gh-pages --single-branch --depth 1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" /tmp/gh-pages
@@ -56,5 +63,9 @@ jobs:
           git -C /tmp/gh-pages config user.name "github-actions[bot]"
           git -C /tmp/gh-pages config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git -C /tmp/gh-pages add -A
+          if git -C /tmp/gh-pages diff --cached --quiet; then
+            echo "No gh-pages changes to publish."
+            exit 0
+          fi
           git -C /tmp/gh-pages commit -m "Publish the daily solar guide for ${{ steps.post.outputs.date }}."
           git -C /tmp/gh-pages push origin gh-pages
