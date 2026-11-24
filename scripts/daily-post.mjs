@@ -1,9 +1,10 @@
-import { appendFileSync, readFileSync, writeFileSync } from "node:fs"
+import { appendFileSync, existsSync, readFileSync, writeFileSync } from "node:fs"
 import { join } from "node:path"
 
 const root = process.cwd()
 const postsPath = join(root, "src/content/posts.json")
 const queuePath = join(root, "src/content/post-queue.json")
+const publicRoot = join(root, "public")
 
 function todayLabel() {
   if (process.env.POST_DATE) return process.env.POST_DATE.trim()
@@ -39,6 +40,26 @@ if (!next) {
   console.log(`No queued post is left for ${date}.`)
   output("added", "false")
   process.exit(0)
+}
+
+const imagePaths = [
+  next.image,
+  ...(next.blocks || []).filter((block) => block.type === "img").map((block) => block.src),
+].filter(Boolean)
+
+for (const imagePath of imagePaths) {
+  if (!imagePath.startsWith("/")) {
+    console.error(`Queued image must be a root-absolute public path: ${imagePath}`)
+    process.exit(1)
+  }
+  const diskPath = join(publicRoot, imagePath.slice(1))
+  if (!existsSync(diskPath)) {
+    console.error(
+      `Missing image for ${next.slug}: ${imagePath} (expected at ${diskPath}). ` +
+        `Add the file under public/ before publishing.`,
+    )
+    process.exit(1)
+  }
 }
 
 const words = next.blocks
