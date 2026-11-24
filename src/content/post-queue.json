@@ -1,52 +1,5 @@
 [
   {
-    "slug": "where-to-place-the-solar-inverter-madipakkam",
-    "title": "Where to Place the Inverter for Solar Panel Installation in Madipakkam",
-    "description": "Where the inverter should sit for solar panel installation in Madipakkam and Chennai: shade, ventilation, cable run, and a wall the family can reach.",
-    "category": "Installation guide",
-    "minutes": "6 min read",
-    "image": "/media/blog/inverter-placement-madipakkam.jpg",
-    "blocks": [
-      {
-        "type": "p",
-        "html": "Solar panel installation in Madipakkam is decided on the terrace, but the inverter lives downstairs. The wall you choose changes heat, cable loss, and whether anyone can read a fault code without a ladder."
-      },
-      {
-        "type": "img",
-        "src": "/media/blog/inverter-placement-madipakkam.jpg",
-        "alt": "String inverter mounted on a shaded wall after solar panel installation in Madipakkam"
-      },
-      {
-        "type": "h2",
-        "text": "Keep it out of the afternoon sun"
-      },
-      {
-        "type": "p",
-        "html": "A string inverter for solar panel installation in Chennai should sit in shade, with air around the fins. A west wall that takes the full May sun runs hotter and derates sooner. Under a stair, beside the meter board, or on a north wall is the usual choice. It still needs a clear space above and below so the fan can move air."
-      },
-      {
-        "type": "h2",
-        "text": "Short DC run, reachable AC board"
-      },
-      {
-        "type": "p",
-        "html": "The DC cables come down from the array. A long loop through the house wastes a little generation and adds joints. The AC side then has to reach the distribution board without a new trench across a finished room. The site visit should mark both routes before the structure is ordered."
-      },
-      {
-        "type": "note",
-        "html": "<strong>Do not box it in.</strong> A cupboard door against the inverter traps heat. Leave the clearance the datasheet asks for, usually about 30 cm on the vented sides."
-      },
-      {
-        "type": "h2",
-        "text": "Someone has to read the display"
-      },
-      {
-        "type": "p",
-        "html": "If the unit is above a loft hatch or behind stored boxes, a fault sits there for weeks. Put it where the homeowner can see the screen and where the crew can open it on a service visit. For solar panel installation in Madipakkam, that is usually the same wall as the EB board. Call <a href=\"tel:+919042517415\">+91 9042517415</a> if you want that wall marked on the survey."
-      }
-    ]
-  },
-  {
     "slug": "sanctioned-load-before-solar-panel-installation-chennai",
     "title": "Check Sanctioned Load before Solar Panel Installation in Chennai",
     "description": "Why sanctioned load limits solar panel installation in Chennai and Madipakkam, and when a TANGEDCO load enhancement has to come first.",
