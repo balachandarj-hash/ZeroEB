@@ -1,5 +1,53 @@
 [
   {
+    "slug": "water-tank-shade-solar-panel-installation-madipakkam",
+    "title": "Water Tank Shade and Solar Panel Installation in Madipakkam",
+    "description": "How an overhead tank changes solar panel installation in Madipakkam and Chennai: which rows to leave empty, and why a photo at noon is not enough.",
+    "category": "Local guide",
+    "minutes": "6 min read",
+    "image": "/media/blog/water-tank-shade-terrace.jpg",
+    "blocks": [
+      {
+        "type": "p",
+        "html": "Most solar panel installation in Madipakkam shares the terrace with a Sintex or concrete tank. The tank is not moved. The row is drawn on the slab that stays clear of its shadow through the year, not only at the hour of the visit."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/water-tank-shade-terrace.jpg",
+        "alt": "Terrace layout marked around an overhead tank before solar panel installation"
+      },
+      {
+        "type": "h2",
+        "text": "A noon photo hides the evening shadow"
+      },
+      {
+        "type": "p",
+        "html": "At midday the tank’s shadow is short. By 4 pm in December it can cover the next row. Solar panel installation in Chennai has to leave that band empty, or the shaded modules pull down the whole string. The survey should stand on the terrace and mark the winter shadow, not guess from a WhatsApp picture taken at lunch."
+      },
+      {
+        "type": "h2",
+        "text": "Pipes and the lid stay reachable"
+      },
+      {
+        "type": "p",
+        "html": "The plumber still needs a path to the tank lid and the outlet pipes. Rails that box the tank in look neat on day one and get cut the first time a float valve fails. Leave a walkway. The lost module is cheaper than a broken pipe under the array."
+      },
+      {
+        "type": "note",
+        "html": "<strong>One shaded panel is not a small loss.</strong> On a single string, the weakest module limits the string. Shade on one panel can cost the row, not only that panel."
+      },
+      {
+        "type": "h2",
+        "text": "What to send before the visit"
+      },
+      {
+        "type": "p",
+        "html": "A photo from each corner of the terrace, plus the tank’s position, is enough to start. The final line is still drawn on site. For solar panel installation in Madipakkam, the office is on Medavakkam Main Road. Call <a href=\"tel:+919042517415\">+91 9042517415</a> or read <a href=\"/blog/solar-panel-orientation-tilt-madipakkam\">how tilt and shade are set</a>."
+      }
+    ],
+    "date": "25 November 2026"
+  },
+  {
     "slug": "sanctioned-load-before-solar-panel-installation-chennai",
     "title": "Check Sanctioned Load before Solar Panel Installation in Chennai",
     "description": "Why sanctioned load limits solar panel installation in Chennai and Madipakkam, and when a TANGEDCO load enhancement has to come first.",
