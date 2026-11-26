@@ -7,6 +7,17 @@ import { faqs, reviews, site } from "@/lib/site"
 
 const featured = ["madipakkam", "medavakkam", "velachery", "adyar", "tambaram", "anna-nagar", "porur", "sholinganallur"]
 
+function keepRupee(text: string) {
+  const parts = text.split("₹")
+  if (parts.length === 1) return text
+  return parts.map((part, index) => (
+    <span key={index}>
+      {index > 0 ? <span style={{ fontFamily: "system-ui, sans-serif" }}>₹</span> : null}
+      {part}
+    </span>
+  ))
+}
+
 const steps = [
   { n: "01", title: "Connect", text: "Tell us about your home and the electricity bill." },
   { n: "02", title: "Site visit", text: "We measure roof space, shade, and the path the cables can take." },
@@ -21,7 +32,8 @@ export default function HomePage() {
 
   return (
     <main>
-      <link rel="preload" as="image" href="/media/residential-solar-terrace-hero.webp" fetchPriority="high" type="image/webp" />
+      <link rel="preload" as="image" href="/media/residential-solar-terrace-hero-m.webp" fetchPriority="high" type="image/webp" media="(max-width: 1023px)" />
+      <link rel="preload" as="image" href="/media/residential-solar-terrace-hero.webp" fetchPriority="high" type="image/webp" media="(min-width: 1024px)" />
       <section className="bg-cream">
         <Container className="grid items-center gap-8 py-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10 lg:py-20">
           <div className="order-2 lg:order-1">
@@ -47,12 +59,12 @@ export default function HomePage() {
           <div className="relative order-1 lg:order-2">
             <div className="relative aspect-[16/10] overflow-hidden bg-navy lg:aspect-[4/3]">
               <picture>
-                <source srcSet="/media/residential-solar-terrace-hero.webp" type="image/webp" />
+                <source media="(min-width: 1024px)" srcSet="/media/residential-solar-terrace-hero.webp" type="image/webp" />
                 <img
-                  src="/media/residential-solar-terrace-hero.webp"
+                  src="/media/residential-solar-terrace-hero-m.webp"
                   alt="Rooftop solar array on a residential terrace in Chennai"
-                  width={864}
-                  height={640}
+                  width={720}
+                  height={450}
                   fetchPriority="high"
                   decoding="async"
                   className="absolute inset-0 h-full w-full object-cover"
@@ -96,7 +108,7 @@ export default function HomePage() {
             ].map(([href, title, text]) => (
               <Link key={href} href={href} className="border border-line p-6 hover:border-navy">
                 <h3 className="text-lg font-semibold text-navy">{title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{text}</p>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{keepRupee(text)}</p>
                 <p className="mt-4 text-sm font-semibold text-green">See this service</p>
               </Link>
             ))}
@@ -128,7 +140,7 @@ export default function HomePage() {
           <div>
             <SectionHeading
               eyebrow="Subsidy"
-              title="Up to ₹78,000 for eligible homes."
+              title={keepRupee("Up to ₹78,000 for eligible homes.")}
               lede="We help with the application and supporting documents. The amount and the approval follow the current government scheme. It is a separate line, not a discount already baked into a quote."
             />
             <Link href="/blog/ndcr-vs-dcr-solar-panels" className="mt-6 inline-block text-sm font-semibold text-green underline underline-offset-4">

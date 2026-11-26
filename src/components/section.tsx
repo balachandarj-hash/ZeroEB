@@ -24,7 +24,7 @@ export function SectionHeading({
   light = false,
 }: {
   eyebrow: string
-  title: string
+  title: ReactNode
   lede?: string
   light?: boolean
 }) {
