@@ -1,52 +1,5 @@
 [
   {
-    "slug": "summer-heat-and-solar-output-chennai",
-    "title": "How Summer Heat Changes Solar Panel Installation Output in Chennai",
-    "description": "Why a solar panel installation in Chennai produces less at the hottest hour, and what the Madipakkam survey should check on the module datasheet.",
-    "category": "Technical guide",
-    "minutes": "6 min read",
-    "image": "/media/blog/summer-heat-solar-array.jpg",
-    "blocks": [
-      {
-        "type": "p",
-        "html": "Solar panel installation in Chennai looks strongest in April and May, and the midday number on the inverter is often a little below the nameplate. Heat, not a fault, is the usual reason. Modules are rated at 25°C cell temperature. A terrace in Madipakkam runs far above that."
-      },
-      {
-        "type": "img",
-        "src": "/media/blog/summer-heat-solar-array.jpg",
-        "alt": "Rooftop solar array on a Chennai house in bright summer sun"
-      },
-      {
-        "type": "h2",
-        "text": "What the temperature coefficient means"
-      },
-      {
-        "type": "p",
-        "html": "The datasheet lists a temperature coefficient, often about −0.3% to −0.35% per degree above 25°C. At a cell temperature of 65°C, output can sit roughly 12% under the sticker wattage even in full sun. Solar panel installation in Madipakkam should compare that figure between modules, not the darkness of the frame."
-      },
-      {
-        "type": "h2",
-        "text": "Air under the array matters"
-      },
-      {
-        "type": "p",
-        "html": "Modules clamped flat on a sheet with no gap run hotter. A raised rail on a concrete terrace lets air pass underneath and keeps the loss smaller. That gap is also what lets rain drain. Packing the row against a parapet blocks the breeze and adds shade."
-      },
-      {
-        "type": "note",
-        "html": "<strong>A hot afternoon is not a failed plant.</strong> Judge the day by total units, not by the single noon reading. March to May are still the strongest months in the year."
-      },
-      {
-        "type": "h2",
-        "text": "What to ask on the quote"
-      },
-      {
-        "type": "p",
-        "html": "Ask for the module model and its temperature coefficient in writing. A quote that only says “540 W panel” has not told you how it behaves in a Chennai summer. The yearly picture is in <a href=\"/blog/monitoring-solar-system-output-chennai\">how to read the first year’s output</a>."
-      }
-    ]
-  },
-  {
     "slug": "seasonal-cleaning-after-solar-panel-installation-madipakkam",
     "title": "Seasonal Cleaning after Solar Panel Installation in Madipakkam",
     "description": "How often to clean after solar panel installation in Madipakkam and Chennai, from summer dust to the northeast monsoon, and what the visit costs.",
