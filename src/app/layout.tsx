@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import type { ReactNode } from "react"
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google"
 import Script from "next/script"
-import { ChatWidget } from "@/components/chat-widget"
+import { ChatLauncher } from "@/components/chat-launcher"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { site } from "@/lib/site"
@@ -17,7 +17,9 @@ const sans = Source_Sans_3({
 const serif = Source_Serif_4({
   subsets: ["latin"],
   variable: "--font-serif",
-  weight: ["600", "700"],
+  weight: ["600"],
+  preload: false,
+  display: "optional",
 })
 
 export const metadata: Metadata = {
@@ -93,13 +95,12 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <SiteHeader />
         {children}
         <SiteFooter />
-        <ChatWidget />
+        <ChatLauncher />
         <Script id="ld-localbusiness" type="application/ld+json">
           {JSON.stringify(jsonLd)}
         </Script>
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${site.gaId}`} strategy="afterInteractive" />
-        <Script id="gtag" strategy="afterInteractive">
-          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${site.gaId}');`}
+        <Script id="gtag" strategy="lazyOnload">
+          {`window.__loadGa=function(){if(window.__gaLoaded)return;window.__gaLoaded=1;var s=document.createElement("script");s.src="https://www.googletagmanager.com/gtag/js?id=${site.gaId}";s.async=true;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag("js",new Date());gtag("config","${site.gaId}");};addEventListener("pointerdown",window.__loadGa,{once:true,passive:true});addEventListener("keydown",window.__loadGa,{once:true});`}
         </Script>
       </body>
     </html>

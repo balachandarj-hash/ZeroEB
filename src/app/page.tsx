@@ -1,6 +1,6 @@
 import { Image } from "@/components/image"
 import Link from "next/link"
-import { EnquiryForm } from "@/components/enquiry-form"
+import { DeferredEnquiry } from "@/components/deferred-enquiry"
 import { Container, SectionHeading } from "@/components/section"
 import { areas, posts, work } from "@/lib/content"
 import { faqs, reviews, site } from "@/lib/site"
@@ -21,9 +21,10 @@ export default function HomePage() {
 
   return (
     <main>
+      <link rel="preload" as="image" href="/media/residential-solar-terrace-hero.webp" fetchPriority="high" type="image/webp" />
       <section className="bg-cream">
-        <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.05fr_0.95fr] lg:py-20">
-          <div>
+        <Container className="grid items-center gap-8 py-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10 lg:py-20">
+          <div className="order-2 lg:order-1">
             <p className="text-[0.72rem] font-bold tracking-[0.16em] text-green uppercase">
               Chennai & Madipakkam
             </p>
@@ -43,16 +44,20 @@ export default function HomePage() {
             </div>
             <p className="mt-6 text-sm font-semibold text-navy">25+ year panel performance warranty · No-obligation site assessment</p>
           </div>
-          <div className="relative">
-            <div className="relative aspect-[4/3] overflow-hidden bg-navy">
-              <Image
-                src="/media/residential-solar-terrace-hero.jpg"
-                alt="Rooftop solar array on a residential terrace in Chennai"
-                fill
-                priority
-                className="object-cover"
-                sizes="(min-width: 1024px) 520px, 100vw"
-              />
+          <div className="relative order-1 lg:order-2">
+            <div className="relative aspect-[16/10] overflow-hidden bg-navy lg:aspect-[4/3]">
+              <picture>
+                <source srcSet="/media/residential-solar-terrace-hero.webp" type="image/webp" />
+                <img
+                  src="/media/residential-solar-terrace-hero.webp"
+                  alt="Rooftop solar array on a residential terrace in Chennai"
+                  width={864}
+                  height={640}
+                  fetchPriority="high"
+                  decoding="async"
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
+              </picture>
             </div>
             <p className="absolute right-4 bottom-4 max-w-[16rem] bg-navy/90 px-3 py-2 text-xs font-semibold tracking-wide text-white">
               Powering homes across Chennai & Madipakkam
@@ -134,7 +139,7 @@ export default function HomePage() {
             <p className="text-[0.72rem] font-bold tracking-[0.16em] text-green uppercase">Get a free solar quote</p>
             <h2 className="mt-2 font-serif text-3xl text-navy">Tell us about the bill.</h2>
             <p className="mt-2 mb-6 text-sm text-muted-foreground">We will call you. Nothing is ordered from this form.</p>
-            <EnquiryForm
+            <DeferredEnquiry
               source="quote"
               submitLabel="Get my free quote"
               note="No spam. Your information stays with ZeroEB."

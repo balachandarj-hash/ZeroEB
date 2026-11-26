@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { EnquiryForm } from "@/components/enquiry-form"
+import { OfficeMap } from "@/components/office-map"
 import { Container } from "@/components/section"
 import { site } from "@/lib/site"
 
@@ -46,11 +47,9 @@ export default function ContactPage() {
               <p className="mt-2 text-sm leading-relaxed">{site.address.line}</p>
               <p className="mt-2 text-sm text-muted-foreground">{site.hours}</p>
             </div>
-            <iframe
-              title="ZeroEB office on Medavakkam Main Road"
-              src={map}
-              className="h-64 w-full border border-line"
-            />
+            <div className="h-64 border border-line">
+              <OfficeMap title="ZeroEB office on Medavakkam Main Road" src={map} className="bg-cream text-navy" />
+            </div>
           </div>
           <div className="border border-line p-6">
             <h2 className="font-serif text-3xl text-navy">Send an enquiry</h2>

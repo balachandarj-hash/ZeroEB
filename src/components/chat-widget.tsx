@@ -29,8 +29,8 @@ const prompts = [
 
 type Turn = { from: "desk" | "you"; text: string }
 
-export function ChatWidget() {
-  const [open, setOpen] = useState(false)
+export function ChatWidget({ startOpen = false }: { startOpen?: boolean }) {
+  const [open, setOpen] = useState(startOpen)
   const [turns, setTurns] = useState<Turn[]>([
     {
       from: "desk",

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { OfficeMap } from "@/components/office-map"
 import { site } from "@/lib/site"
 
 export function SiteFooter() {
@@ -18,13 +19,7 @@ export function SiteFooter() {
             {site.address.line}
           </a>
           <div className="mt-4 h-44 max-w-lg overflow-hidden border border-white/15">
-            <iframe
-              title="ZeroEB office in Madipakkam"
-              src={mapEmbed}
-              className="h-full w-full border-0"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+            <OfficeMap title="ZeroEB office in Madipakkam" src={mapEmbed} />
           </div>
         </div>
         <div>
