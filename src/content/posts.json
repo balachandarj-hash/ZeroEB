@@ -1,5 +1,53 @@
 [
   {
+    "slug": "seasonal-cleaning-after-solar-panel-installation-madipakkam",
+    "title": "Seasonal Cleaning after Solar Panel Installation in Madipakkam",
+    "description": "How often to clean after solar panel installation in Madipakkam and Chennai, from summer dust to the northeast monsoon, and what the visit costs.",
+    "category": "Maintenance",
+    "minutes": "6 min read",
+    "image": "/media/blog/seasonal-panel-cleaning.jpg",
+    "blocks": [
+      {
+        "type": "p",
+        "html": "Solar panel installation in Madipakkam does not stay at the first month’s output. Dust, traffic film, and droppings sit on the glass. Rain clears some of it. It does not finish a dry April or a film baked on after the monsoon."
+      },
+      {
+        "type": "img",
+        "src": "/media/blog/seasonal-panel-cleaning.jpg",
+        "alt": "Technicians cleaning rooftop solar panels in Chennai"
+      },
+      {
+        "type": "h2",
+        "text": "A practical calendar"
+      },
+      {
+        "type": "p",
+        "html": "February to May is the dusty stretch, and a wash every four to six weeks keeps the units up. June to September varies with the southwest showers. October and November bring the northeast monsoon; wait for a dry morning rather than washing in the rain. December and January need a look after the last wet week. Solar panel installation in Chennai near a main road films faster than a house on an interior lane."
+      },
+      {
+        "type": "h2",
+        "text": "What the wash includes"
+      },
+      {
+        "type": "p",
+        "html": "The glass is washed with a soft solution and purified water, not a pressure jet and not a dry cloth. The same visit can check connectors and the inverter fan. Rates are printed on the <a href=\"/panel-cleaning\">panel cleaning</a> page: up to 3 kW is ₹750 per kW, and an annual contract takes 25% off each visit."
+      },
+      {
+        "type": "note",
+        "html": "<strong>Do not stand on the modules.</strong> The glass is a cover, not a floor. A cracked cell from a foot is not cleaned back into service."
+      },
+      {
+        "type": "h2",
+        "text": "When a wash is not the fix"
+      },
+      {
+        "type": "p",
+        "html": "If one row is dead on a clear afternoon, cleaning will not restore it. That is a connector, a breaker, or a failed module. The checks are in <a href=\"/blog/damaged-solar-panel-what-to-do\">what to do when a panel is damaged</a>. For a routine wash after solar panel installation in Madipakkam, call <a href=\"tel:+919042517415\">+91 9042517415</a>."
+      }
+    ],
+    "date": "28 November 2026"
+  },
+  {
     "slug": "summer-heat-and-solar-output-chennai",
     "title": "How Summer Heat Changes Solar Panel Installation Output in Chennai",
     "description": "Why a solar panel installation in Chennai produces less at the hottest hour, and what the Madipakkam survey should check on the module datasheet.",
